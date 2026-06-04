@@ -1,0 +1,3031 @@
+{
+  "N": 1000,
+  "bracket": [
+    {
+      "label": "R32 Match 1",
+      "slot_index": 1,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.435,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.306,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.229,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.03,
+          "team": "South Africa"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.58,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.247,
+          "team": "Bosnia and Herzegovina"
+        },
+        {
+          "prob": 0.127,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.046,
+          "team": "Qatar"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.286,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.196,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.195,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.178,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.084,
+          "team": "Switzerland"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 2",
+      "slot_index": 2,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.514,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.482,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.004,
+          "team": "Scotland"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.503,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.236,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.224,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.037,
+          "team": "Tunisia"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.389,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.366,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.138,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.085,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.02,
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 3",
+      "slot_index": 3,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.913,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.046,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.041,
+          "team": "Ivory Coast"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.082,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.08,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.073,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.068,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.067,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.799,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.02,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.017,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.015,
+          "team": "Ivory Coast"
+        },
+        {
+          "prob": 0.013,
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 4",
+      "slot_index": 4,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.688,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.246,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.061,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.005,
+          "team": "Tunisia"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.474,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.468,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.057,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.001,
+          "team": "Haiti"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.385,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.251,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.249,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.098,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.012,
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 5",
+      "slot_index": 5,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.491,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.416,
+          "team": "Ivory Coast"
+        },
+        {
+          "prob": 0.079,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.014,
+          "team": "Curaçao"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.662,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.163,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.149,
+          "team": "France"
+        },
+        {
+          "prob": 0.026,
+          "team": "Iraq"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.541,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.142,
+          "team": "France"
+        },
+        {
+          "prob": 0.112,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.08,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.071,
+          "team": "Ivory Coast"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 6",
+      "slot_index": 6,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.838,
+          "team": "France"
+        },
+        {
+          "prob": 0.147,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.015,
+          "team": "Norway"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.107,
+          "team": "Ivory Coast"
+        },
+        {
+          "prob": 0.097,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.073,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.072,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.058,
+          "team": "Algeria"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.81,
+          "team": "France"
+        },
+        {
+          "prob": 0.126,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.012,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.005,
+          "team": "Algeria"
+        },
+        {
+          "prob": 0.005,
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 7",
+      "slot_index": 7,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.684,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.193,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.117,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.006,
+          "team": "South Africa"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.097,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.074,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.069,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.064,
+          "team": "Ivory Coast"
+        },
+        {
+          "prob": 0.062,
+          "team": "Algeria"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.541,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.114,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.055,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.039,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.021,
+          "team": "Turkey"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 8",
+      "slot_index": 8,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.759,
+          "team": "England"
+        },
+        {
+          "prob": 0.239,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.001,
+          "team": "Ghana"
+        },
+        {
+          "prob": 0.001,
+          "team": "Panama"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.099,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.073,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.066,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.058,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.057,
+          "team": "Bosnia and Herzegovina"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.731,
+          "team": "England"
+        },
+        {
+          "prob": 0.21,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.007,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.005,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.004,
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 9",
+      "slot_index": 9,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.89,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.073,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.037,
+          "team": "Iran"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.089,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.066,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.065,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.061,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.06,
+          "team": "Algeria"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.806,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.047,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.021,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.013,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.011,
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 10",
+      "slot_index": 10,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.663,
+          "team": "United States"
+        },
+        {
+          "prob": 0.174,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.152,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.011,
+          "team": "Paraguay"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.109,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.084,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.073,
+          "team": "Algeria"
+        },
+        {
+          "prob": 0.071,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.062,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.574,
+          "team": "United States"
+        },
+        {
+          "prob": 0.125,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.111,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.026,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.017,
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 11",
+      "slot_index": 11,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.874,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.126,
+          "team": "Uruguay"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.64,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.308,
+          "team": "Algeria"
+        },
+        {
+          "prob": 0.049,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.003,
+          "team": "Jordan"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.824,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.093,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.049,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.024,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.01,
+          "team": "Algeria"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 12",
+      "slot_index": 12,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.703,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.253,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.033,
+          "team": "Uzbekistan"
+        },
+        {
+          "prob": 0.011,
+          "team": "DR Congo"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.709,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.235,
+          "team": "England"
+        },
+        {
+          "prob": 0.045,
+          "team": "Panama"
+        },
+        {
+          "prob": 0.011,
+          "team": "Ghana"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.354,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.312,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.171,
+          "team": "England"
+        },
+        {
+          "prob": 0.156,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.004,
+          "team": "Panama"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 13",
+      "slot_index": 13,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.849,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.109,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.041,
+          "team": "Bosnia and Herzegovina"
+        },
+        {
+          "prob": 0.001,
+          "team": "Qatar"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.105,
+          "team": "Uzbekistan"
+        },
+        {
+          "prob": 0.093,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.082,
+          "team": "DR Congo"
+        },
+        {
+          "prob": 0.068,
+          "team": "Panama"
+        },
+        {
+          "prob": 0.057,
+          "team": "Algeria"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.727,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.063,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.017,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.017,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.016,
+          "team": "Turkey"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 14",
+      "slot_index": 14,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.372,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.347,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.22,
+          "team": "United States"
+        },
+        {
+          "prob": 0.061,
+          "team": "Paraguay"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.534,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.363,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.098,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.005,
+          "team": "New Zealand"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.221,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.214,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.193,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.159,
+          "team": "United States"
+        },
+        {
+          "prob": 0.127,
+          "team": "Iran"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 15",
+      "slot_index": 15,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.946,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.045,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.009,
+          "team": "Algeria"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.833,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.126,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.03,
+          "team": "Saudi Arabia"
+        },
+        {
+          "prob": 0.011,
+          "team": "Cape Verde"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.806,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.119,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.054,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.017,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.003,
+          "team": "Algeria"
+        }
+      ]
+    },
+    {
+      "label": "R32 Match 16",
+      "slot_index": 16,
+      "stage": "R32",
+      "team_a_probs": [
+        {
+          "prob": 0.744,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.255,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.001,
+          "team": "Uzbekistan"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.112,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.086,
+          "team": "Panama"
+        },
+        {
+          "prob": 0.084,
+          "team": "Bosnia and Herzegovina"
+        },
+        {
+          "prob": 0.069,
+          "team": "Saudi Arabia"
+        },
+        {
+          "prob": 0.057,
+          "team": "Norway"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.721,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.24,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.006,
+          "team": "Panama"
+        },
+        {
+          "prob": 0.004,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.003,
+          "team": "Algeria"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 1",
+      "slot_index": 17,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.286,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.196,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.195,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.178,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.084,
+          "team": "Switzerland"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.389,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.366,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.138,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.085,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.02,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.351,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.33,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.112,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.077,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.035,
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 2",
+      "slot_index": 18,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.799,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.02,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.017,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.015,
+          "team": "Ivory Coast"
+        },
+        {
+          "prob": 0.013,
+          "team": "Japan"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.385,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.251,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.249,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.098,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.012,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.389,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.231,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.158,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.139,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.051,
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 3",
+      "slot_index": 19,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.541,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.142,
+          "team": "France"
+        },
+        {
+          "prob": 0.112,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.08,
+          "team": "Ecuador"
+        },
+        {
+          "prob": 0.071,
+          "team": "Ivory Coast"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.81,
+          "team": "France"
+        },
+        {
+          "prob": 0.126,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.012,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.005,
+          "team": "Algeria"
+        },
+        {
+          "prob": 0.005,
+          "team": "Mexico"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.819,
+          "team": "France"
+        },
+        {
+          "prob": 0.13,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.016,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.01,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.005,
+          "team": "Ecuador"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 4",
+      "slot_index": 20,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.541,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.114,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.055,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.039,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.021,
+          "team": "Turkey"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.731,
+          "team": "England"
+        },
+        {
+          "prob": 0.21,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.007,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.005,
+          "team": "Czechia"
+        },
+        {
+          "prob": 0.004,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.634,
+          "team": "England"
+        },
+        {
+          "prob": 0.163,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.129,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.012,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.008,
+          "team": "Sweden"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 5",
+      "slot_index": 21,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.806,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.047,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.021,
+          "team": "Iran"
+        },
+        {
+          "prob": 0.013,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.011,
+          "team": "Sweden"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.574,
+          "team": "United States"
+        },
+        {
+          "prob": 0.125,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.111,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.026,
+          "team": "Sweden"
+        },
+        {
+          "prob": 0.017,
+          "team": "Egypt"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.587,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.242,
+          "team": "United States"
+        },
+        {
+          "prob": 0.039,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.035,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.025,
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 6",
+      "slot_index": 22,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.824,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.093,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.049,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.024,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.01,
+          "team": "Algeria"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.354,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.312,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.171,
+          "team": "England"
+        },
+        {
+          "prob": 0.156,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.004,
+          "team": "Panama"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.64,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.08,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.072,
+          "team": "England"
+        },
+        {
+          "prob": 0.069,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.061,
+          "team": "Portugal"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 7",
+      "slot_index": 23,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.727,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.063,
+          "team": "Canada"
+        },
+        {
+          "prob": 0.017,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.017,
+          "team": "Scotland"
+        },
+        {
+          "prob": 0.016,
+          "team": "Turkey"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.221,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.214,
+          "team": "Egypt"
+        },
+        {
+          "prob": 0.193,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.159,
+          "team": "United States"
+        },
+        {
+          "prob": 0.127,
+          "team": "Iran"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.454,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.104,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.099,
+          "team": "United States"
+        },
+        {
+          "prob": 0.081,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.078,
+          "team": "Egypt"
+        }
+      ]
+    },
+    {
+      "label": "R16 Match 8",
+      "slot_index": 24,
+      "stage": "R16",
+      "team_a_probs": [
+        {
+          "prob": 0.806,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.119,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.054,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.017,
+          "team": "Austria"
+        },
+        {
+          "prob": 0.003,
+          "team": "Algeria"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.721,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.24,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.006,
+          "team": "Panama"
+        },
+        {
+          "prob": 0.004,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.003,
+          "team": "Algeria"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.531,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.304,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.08,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.045,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.033,
+          "team": "Spain"
+        }
+      ]
+    },
+    {
+      "label": "QF Match 1",
+      "slot_index": 25,
+      "stage": "QF",
+      "team_a_probs": [
+        {
+          "prob": 0.351,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.33,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.112,
+          "team": "Japan"
+        },
+        {
+          "prob": 0.077,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.035,
+          "team": "Mexico"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.389,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.231,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.158,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.139,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.051,
+          "team": "Japan"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.272,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.258,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.213,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.174,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.053,
+          "team": "Japan"
+        }
+      ]
+    },
+    {
+      "label": "QF Match 2",
+      "slot_index": 26,
+      "stage": "QF",
+      "team_a_probs": [
+        {
+          "prob": 0.819,
+          "team": "France"
+        },
+        {
+          "prob": 0.13,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.016,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.01,
+          "team": "Norway"
+        },
+        {
+          "prob": 0.005,
+          "team": "Ecuador"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.634,
+          "team": "England"
+        },
+        {
+          "prob": 0.163,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.129,
+          "team": "Mexico"
+        },
+        {
+          "prob": 0.012,
+          "team": "South Korea"
+        },
+        {
+          "prob": 0.008,
+          "team": "Sweden"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.538,
+          "team": "France"
+        },
+        {
+          "prob": 0.313,
+          "team": "England"
+        },
+        {
+          "prob": 0.054,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.047,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.03,
+          "team": "Mexico"
+        }
+      ]
+    },
+    {
+      "label": "QF Match 3",
+      "slot_index": 27,
+      "stage": "QF",
+      "team_a_probs": [
+        {
+          "prob": 0.587,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.242,
+          "team": "United States"
+        },
+        {
+          "prob": 0.039,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.035,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.025,
+          "team": "Egypt"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.64,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.08,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.072,
+          "team": "England"
+        },
+        {
+          "prob": 0.069,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.061,
+          "team": "Portugal"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.494,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.199,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.063,
+          "team": "United States"
+        },
+        {
+          "prob": 0.059,
+          "team": "England"
+        },
+        {
+          "prob": 0.04,
+          "team": "Portugal"
+        }
+      ]
+    },
+    {
+      "label": "QF Match 4",
+      "slot_index": 28,
+      "stage": "QF",
+      "team_a_probs": [
+        {
+          "prob": 0.454,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.104,
+          "team": "Turkey"
+        },
+        {
+          "prob": 0.099,
+          "team": "United States"
+        },
+        {
+          "prob": 0.081,
+          "team": "Australia"
+        },
+        {
+          "prob": 0.078,
+          "team": "Egypt"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.531,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.304,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.08,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.045,
+          "team": "Uruguay"
+        },
+        {
+          "prob": 0.033,
+          "team": "Spain"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.486,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.245,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.079,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.062,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.031,
+          "team": "Uruguay"
+        }
+      ]
+    },
+    {
+      "label": "SF Match 1",
+      "slot_index": 29,
+      "stage": "SF",
+      "team_a_probs": [
+        {
+          "prob": 0.272,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.258,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.213,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.174,
+          "team": "Netherlands"
+        },
+        {
+          "prob": 0.053,
+          "team": "Japan"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.538,
+          "team": "France"
+        },
+        {
+          "prob": 0.313,
+          "team": "England"
+        },
+        {
+          "prob": 0.054,
+          "team": "Senegal"
+        },
+        {
+          "prob": 0.047,
+          "team": "Croatia"
+        },
+        {
+          "prob": 0.03,
+          "team": "Mexico"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.363,
+          "team": "France"
+        },
+        {
+          "prob": 0.191,
+          "team": "England"
+        },
+        {
+          "prob": 0.114,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.104,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.086,
+          "team": "Germany"
+        }
+      ]
+    },
+    {
+      "label": "SF Match 2",
+      "slot_index": 30,
+      "stage": "SF",
+      "team_a_probs": [
+        {
+          "prob": 0.494,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.199,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.063,
+          "team": "United States"
+        },
+        {
+          "prob": 0.059,
+          "team": "England"
+        },
+        {
+          "prob": 0.04,
+          "team": "Portugal"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.486,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.245,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.079,
+          "team": "Switzerland"
+        },
+        {
+          "prob": 0.062,
+          "team": "Colombia"
+        },
+        {
+          "prob": 0.031,
+          "team": "Uruguay"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.309,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.289,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.153,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.085,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.042,
+          "team": "Colombia"
+        }
+      ]
+    },
+    {
+      "label": "3rd Place Match",
+      "slot_index": 31,
+      "stage": "3RD",
+      "team_a_probs": [
+        {
+          "prob": 0.176,
+          "team": "France"
+        },
+        {
+          "prob": 0.168,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.145,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.136,
+          "team": "Germany"
+        },
+        {
+          "prob": 0.122,
+          "team": "England"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.214,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.212,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.132,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.128,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.059,
+          "team": "Switzerland"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.136,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.123,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.119,
+          "team": "France"
+        },
+        {
+          "prob": 0.087,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.086,
+          "team": "England"
+        }
+      ]
+    },
+    {
+      "label": "Final",
+      "slot_index": 32,
+      "stage": "FINAL",
+      "team_a_probs": [
+        {
+          "prob": 0.363,
+          "team": "France"
+        },
+        {
+          "prob": 0.191,
+          "team": "England"
+        },
+        {
+          "prob": 0.114,
+          "team": "Brazil"
+        },
+        {
+          "prob": 0.104,
+          "team": "Morocco"
+        },
+        {
+          "prob": 0.086,
+          "team": "Germany"
+        }
+      ],
+      "team_b_probs": [
+        {
+          "prob": 0.309,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.289,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.153,
+          "team": "Portugal"
+        },
+        {
+          "prob": 0.085,
+          "team": "Belgium"
+        },
+        {
+          "prob": 0.042,
+          "team": "Colombia"
+        }
+      ],
+      "winner_probs": [
+        {
+          "prob": 0.23,
+          "team": "France"
+        },
+        {
+          "prob": 0.168,
+          "team": "Spain"
+        },
+        {
+          "prob": 0.152,
+          "team": "Argentina"
+        },
+        {
+          "prob": 0.133,
+          "team": "England"
+        },
+        {
+          "prob": 0.072,
+          "team": "Portugal"
+        }
+      ]
+    }
+  ],
+  "h2h": {
+    "france_win_ratio": 0.48936170212765956,
+    "france_wins": 69,
+    "prob_of_meeting": 0.141,
+    "spain_win_ratio": 0.5106382978723404,
+    "spain_wins": 72,
+    "stages": {
+      "3RD": 32,
+      "FINAL": 107,
+      "QF": 1,
+      "R16": 0,
+      "R32": 0,
+      "SF": 1
+    },
+    "total_meetings": 141
+  },
+  "teams": [
+    {
+      "fifa_points": 1877.32,
+      "goals_conceded_avg": 0.8,
+      "goals_scored_avg": 2.4,
+      "group": "I",
+      "name": "France",
+      "probs": {
+        "final": 0.364,
+        "group_exit": 0.001,
+        "qf": 0.823,
+        "r16": 0.959,
+        "r32": 0.999,
+        "sf": 0.541,
+        "winner": 0.23
+      },
+      "sim_avg_goals_conceded": 1.0080139880518724,
+      "sim_avg_goals_scored": 4.607606003205595
+    },
+    {
+      "fifa_points": 1876.4,
+      "goals_conceded_avg": 0.7,
+      "goals_scored_avg": 2.3,
+      "group": "H",
+      "name": "Spain",
+      "probs": {
+        "final": 0.309,
+        "group_exit": 0.0,
+        "qf": 0.673,
+        "r16": 0.878,
+        "r32": 1.0,
+        "sf": 0.523,
+        "winner": 0.168
+      },
+      "sim_avg_goals_conceded": 0.996665150826133,
+      "sim_avg_goals_scored": 5.253600121267243
+    },
+    {
+      "fifa_points": 1874.81,
+      "goals_conceded_avg": 0.6,
+      "goals_scored_avg": 2.2,
+      "group": "J",
+      "name": "Argentina",
+      "probs": {
+        "final": 0.289,
+        "group_exit": 0.0,
+        "qf": 0.551,
+        "r16": 0.831,
+        "r32": 1.0,
+        "sf": 0.502,
+        "winner": 0.152
+      },
+      "sim_avg_goals_conceded": 0.9873160037582212,
+      "sim_avg_goals_scored": 5.225180081428124
+    },
+    {
+      "fifa_points": 1825.97,
+      "goals_conceded_avg": 0.7,
+      "goals_scored_avg": 2.2,
+      "group": "L",
+      "name": "England",
+      "probs": {
+        "final": 0.223,
+        "group_exit": 0.001,
+        "qf": 0.707,
+        "r16": 0.905,
+        "r32": 0.999,
+        "sf": 0.372,
+        "winner": 0.133
+      },
+      "sim_avg_goals_conceded": 0.9745082612116444,
+      "sim_avg_goals_scored": 4.4017309205350115
+    },
+    {
+      "fifa_points": 1763.83,
+      "goals_conceded_avg": 0.8,
+      "goals_scored_avg": 2.3,
+      "group": "K",
+      "name": "Portugal",
+      "probs": {
+        "final": 0.153,
+        "group_exit": 0.001,
+        "qf": 0.365,
+        "r16": 0.877,
+        "r32": 0.999,
+        "sf": 0.285,
+        "winner": 0.072
+      },
+      "sim_avg_goals_conceded": 1.1189124075030115,
+      "sim_avg_goals_scored": 4.322147651006712
+    },
+    {
+      "fifa_points": 1755.87,
+      "goals_conceded_avg": 0.7,
+      "goals_scored_avg": 1.9,
+      "group": "C",
+      "name": "Morocco",
+      "probs": {
+        "final": 0.104,
+        "group_exit": 0.0,
+        "qf": 0.493,
+        "r16": 0.637,
+        "r32": 1.0,
+        "sf": 0.273,
+        "winner": 0.051
+      },
+      "sim_avg_goals_conceded": 1.1000704721634955,
+      "sim_avg_goals_scored": 3.6784707540521495
+    },
+    {
+      "fifa_points": 1761.16,
+      "goals_conceded_avg": 0.8,
+      "goals_scored_avg": 2.1,
+      "group": "C",
+      "name": "Brazil",
+      "probs": {
+        "final": 0.115,
+        "group_exit": 0.001,
+        "qf": 0.493,
+        "r16": 0.645,
+        "r32": 0.999,
+        "sf": 0.261,
+        "winner": 0.05
+      },
+      "sim_avg_goals_conceded": 1.1858985686517052,
+      "sim_avg_goals_scored": 4.068563350415268
+    },
+    {
+      "fifa_points": 1734.71,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 2.1,
+      "group": "G",
+      "name": "Belgium",
+      "probs": {
+        "final": 0.085,
+        "group_exit": 0.0,
+        "qf": 0.647,
+        "r16": 0.88,
+        "r32": 1.0,
+        "sf": 0.213,
+        "winner": 0.032
+      },
+      "sim_avg_goals_conceded": 1.1372417268604065,
+      "sim_avg_goals_scored": 4.49890811355619
+    },
+    {
+      "fifa_points": 1730.37,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 2.2,
+      "group": "E",
+      "name": "Germany",
+      "probs": {
+        "final": 0.086,
+        "group_exit": 0.0,
+        "qf": 0.406,
+        "r16": 0.847,
+        "r32": 1.0,
+        "sf": 0.222,
+        "winner": 0.031
+      },
+      "sim_avg_goals_conceded": 1.1172546954537477,
+      "sim_avg_goals_scored": 4.4797261716692995
+    },
+    {
+      "fifa_points": 1757.87,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 2.2,
+      "group": "F",
+      "name": "Netherlands",
+      "probs": {
+        "final": 0.075,
+        "group_exit": 0.016,
+        "qf": 0.316,
+        "r16": 0.496,
+        "r32": 0.984,
+        "sf": 0.175,
+        "winner": 0.026
+      },
+      "sim_avg_goals_conceded": 1.3898173338515352,
+      "sim_avg_goals_scored": 3.164205207928488
+    },
+    {
+      "fifa_points": 1717.07,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 1.8,
+      "group": "L",
+      "name": "Croatia",
+      "probs": {
+        "final": 0.034,
+        "group_exit": 0.012,
+        "qf": 0.249,
+        "r16": 0.582,
+        "r32": 0.988,
+        "sf": 0.086,
+        "winner": 0.011
+      },
+      "sim_avg_goals_conceded": 1.4972951312362253,
+      "sim_avg_goals_scored": 3.020236425566019
+    },
+    {
+      "fifa_points": 1688.99,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 1.7,
+      "group": "I",
+      "name": "Senegal",
+      "probs": {
+        "final": 0.023,
+        "group_exit": 0.057,
+        "qf": 0.153,
+        "r16": 0.717,
+        "r32": 0.943,
+        "sf": 0.055,
+        "winner": 0.009
+      },
+      "sim_avg_goals_conceded": 1.7645744464757263,
+      "sim_avg_goals_scored": 2.4099126548852325
+    },
+    {
+      "fifa_points": 1693.09,
+      "goals_conceded_avg": 0.9,
+      "goals_scored_avg": 1.8,
+      "group": "K",
+      "name": "Colombia",
+      "probs": {
+        "final": 0.042,
+        "group_exit": 0.016,
+        "qf": 0.152,
+        "r16": 0.559,
+        "r32": 0.984,
+        "sf": 0.1,
+        "winner": 0.009
+      },
+      "sim_avg_goals_conceded": 1.5003064351378959,
+      "sim_avg_goals_scored": 2.9701736465781408
+    },
+    {
+      "fifa_points": 1673.13,
+      "goals_conceded_avg": 1.0,
+      "goals_scored_avg": 1.8,
+      "group": "D",
+      "name": "United States",
+      "probs": {
+        "final": 0.033,
+        "group_exit": 0.022,
+        "qf": 0.345,
+        "r16": 0.759,
+        "r32": 0.978,
+        "sf": 0.082,
+        "winner": 0.007
+      },
+      "sim_avg_goals_conceded": 1.41097979412886,
+      "sim_avg_goals_scored": 2.8122378955394587
+    },
+    {
+      "fifa_points": 1649.4,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.7,
+      "group": "B",
+      "name": "Switzerland",
+      "probs": {
+        "final": 0.02,
+        "group_exit": 0.004,
+        "qf": 0.473,
+        "r16": 0.815,
+        "r32": 0.996,
+        "sf": 0.085,
+        "winner": 0.005
+      },
+      "sim_avg_goals_conceded": 1.286028602860286,
+      "sim_avg_goals_scored": 3.559039237257059
+    },
+    {
+      "fifa_points": 1681.03,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.7,
+      "group": "A",
+      "name": "Mexico",
+      "probs": {
+        "final": 0.009,
+        "group_exit": 0.017,
+        "qf": 0.171,
+        "r16": 0.737,
+        "r32": 0.983,
+        "sf": 0.037,
+        "winner": 0.004
+      },
+      "sim_avg_goals_conceded": 1.4638469284994964,
+      "sim_avg_goals_scored": 3.0239677744209468
+    },
+    {
+      "fifa_points": 1660.43,
+      "goals_conceded_avg": 1.0,
+      "goals_scored_avg": 1.9,
+      "group": "F",
+      "name": "Japan",
+      "probs": {
+        "final": 0.014,
+        "group_exit": 0.067,
+        "qf": 0.183,
+        "r16": 0.295,
+        "r32": 0.933,
+        "sf": 0.054,
+        "winner": 0.003
+      },
+      "sim_avg_goals_conceded": 1.910157114405842,
+      "sim_avg_goals_scored": 2.3029431290108433
+    },
+    {
+      "fifa_points": 1673.07,
+      "goals_conceded_avg": 1.0,
+      "goals_scored_avg": 1.8,
+      "group": "H",
+      "name": "Uruguay",
+      "probs": {
+        "final": 0.011,
+        "group_exit": 0.013,
+        "qf": 0.089,
+        "r16": 0.219,
+        "r32": 0.987,
+        "sf": 0.059,
+        "winner": 0.003
+      },
+      "sim_avg_goals_conceded": 1.9925220938137322,
+      "sim_avg_goals_scored": 2.9952413324269203
+    },
+    {
+      "fifa_points": 1555.43,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.7,
+      "group": "D",
+      "name": "Turkey",
+      "probs": {
+        "final": 0.005,
+        "group_exit": 0.176,
+        "qf": 0.148,
+        "r16": 0.405,
+        "r32": 0.824,
+        "sf": 0.021,
+        "winner": 0.002
+      },
+      "sim_avg_goals_conceded": 2.1056800181036435,
+      "sim_avg_goals_scored": 1.957682733650147
+    },
+    {
+      "fifa_points": 1530.5,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.8,
+      "group": "I",
+      "name": "Norway",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.4,
+        "qf": 0.026,
+        "r16": 0.219,
+        "r32": 0.6,
+        "sf": 0.003,
+        "winner": 0.001
+      },
+      "sim_avg_goals_conceded": 3.311088029083355,
+      "sim_avg_goals_scored": 1.654375486886523
+    },
+    {
+      "fifa_points": 1560.12,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.7,
+      "group": "J",
+      "name": "Austria",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.059,
+        "qf": 0.034,
+        "r16": 0.12,
+        "r32": 0.941,
+        "sf": 0.009,
+        "winner": 0.001
+      },
+      "sim_avg_goals_conceded": 2.662047167517627,
+      "sim_avg_goals_scored": 2.3967906637490883
+    },
+    {
+      "fifa_points": 1307.2,
+      "goals_conceded_avg": 1.4,
+      "goals_scored_avg": 1.1,
+      "group": "A",
+      "name": "South Africa",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.902,
+        "qf": 0.001,
+        "r16": 0.014,
+        "r32": 0.098,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.9781561194988755,
+      "sim_avg_goals_scored": 0.7619659492451012
+    },
+    {
+      "fifa_points": 1542.81,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.6,
+      "group": "A",
+      "name": "South Korea",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.091,
+        "qf": 0.053,
+        "r16": 0.432,
+        "r32": 0.909,
+        "sf": 0.006,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.079891057648661,
+      "sim_avg_goals_scored": 2.1221062187925557
+    },
+    {
+      "fifa_points": 1505.24,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.5,
+      "group": "A",
+      "name": "Czechia",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.182,
+        "qf": 0.028,
+        "r16": 0.293,
+        "r32": 0.818,
+        "sf": 0.004,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.3028695442488547,
+      "sim_avg_goals_scored": 1.7909332047263082
+    },
+    {
+      "fifa_points": 1461.38,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.4,
+      "group": "B",
+      "name": "Canada",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.096,
+        "qf": 0.031,
+        "r16": 0.269,
+        "r32": 0.904,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.1872026641294005,
+      "sim_avg_goals_scored": 2.018078020932445
+    },
+    {
+      "fifa_points": 1395.2,
+      "goals_conceded_avg": 1.5,
+      "goals_scored_avg": 1.2,
+      "group": "B",
+      "name": "Bosnia and Herzegovina",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.327,
+        "qf": 0.006,
+        "r16": 0.067,
+        "r32": 0.673,
+        "sf": 0.001,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.0365528281750267,
+      "sim_avg_goals_scored": 1.3935432230522946
+    },
+    {
+      "fifa_points": 1235.3,
+      "goals_conceded_avg": 1.6,
+      "goals_scored_avg": 1.0,
+      "group": "B",
+      "name": "Qatar",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.839,
+        "qf": 0.001,
+        "r16": 0.004,
+        "r32": 0.161,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 4.292482627921668,
+      "sim_avg_goals_scored": 0.7820593809222994
+    },
+    {
+      "fifa_points": 1242.1,
+      "goals_conceded_avg": 1.7,
+      "goals_scored_avg": 0.9,
+      "group": "C",
+      "name": "Haiti",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.988,
+        "qf": 0.0,
+        "r16": 0.0,
+        "r32": 0.012,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 7.7725763612217795,
+      "sim_avg_goals_scored": 0.40172642762284194
+    },
+    {
+      "fifa_points": 1492.3,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.4,
+      "group": "C",
+      "name": "Scotland",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.294,
+        "qf": 0.012,
+        "r16": 0.072,
+        "r32": 0.706,
+        "sf": 0.001,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.4390822784810124,
+      "sim_avg_goals_scored": 1.59915611814346
+    },
+    {
+      "fifa_points": 1421.1,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.1,
+      "group": "D",
+      "name": "Paraguay",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.787,
+        "qf": 0.006,
+        "r16": 0.034,
+        "r32": 0.213,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.193052566861359,
+      "sim_avg_goals_scored": 0.8549031663080233
+    },
+    {
+      "fifa_points": 1533.12,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.6,
+      "group": "D",
+      "name": "Australia",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.222,
+        "qf": 0.121,
+        "r16": 0.353,
+        "r32": 0.778,
+        "sf": 0.01,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.035814606741573,
+      "sim_avg_goals_scored": 1.7715355805243447
+    },
+    {
+      "fifa_points": 1255.4,
+      "goals_conceded_avg": 1.8,
+      "goals_scored_avg": 0.8,
+      "group": "E",
+      "name": "Curaçao",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.957,
+        "qf": 0.0,
+        "r16": 0.001,
+        "r32": 0.043,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 5.919513797634691,
+      "sim_avg_goals_scored": 0.48817345597897505
+    },
+    {
+      "fifa_points": 1470.5,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.4,
+      "group": "E",
+      "name": "Ivory Coast",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.153,
+        "qf": 0.01,
+        "r16": 0.117,
+        "r32": 0.847,
+        "sf": 0.001,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.664235412474849,
+      "sim_avg_goals_scored": 1.7351609657947686
+    },
+    {
+      "fifa_points": 1482.1,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.3,
+      "group": "E",
+      "name": "Ecuador",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.102,
+        "qf": 0.012,
+        "r16": 0.135,
+        "r32": 0.898,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.3987639060568604,
+      "sim_avg_goals_scored": 1.7260815822002473
+    },
+    {
+      "fifa_points": 1580.22,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.6,
+      "group": "F",
+      "name": "Sweden",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.287,
+        "qf": 0.045,
+        "r16": 0.126,
+        "r32": 0.713,
+        "sf": 0.005,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.650231124807396,
+      "sim_avg_goals_scored": 1.5852593733949667
+    },
+    {
+      "fifa_points": 1445.6,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.2,
+      "group": "F",
+      "name": "Tunisia",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.844,
+        "qf": 0.0,
+        "r16": 0.009,
+        "r32": 0.156,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.9608214849921013,
+      "sim_avg_goals_scored": 0.8391785150078989
+    },
+    {
+      "fifa_points": 1515.64,
+      "goals_conceded_avg": 1.1,
+      "goals_scored_avg": 1.5,
+      "group": "G",
+      "name": "Egypt",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.059,
+        "qf": 0.106,
+        "r16": 0.303,
+        "r32": 0.941,
+        "sf": 0.008,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.124141090242785,
+      "sim_avg_goals_scored": 2.131012368300504
+    },
+    {
+      "fifa_points": 1475.22,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.4,
+      "group": "G",
+      "name": "Iran",
+      "probs": {
+        "final": 0.001,
+        "group_exit": 0.127,
+        "qf": 0.048,
+        "r16": 0.202,
+        "r32": 0.873,
+        "sf": 0.001,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 2.513212121212121,
+      "sim_avg_goals_scored": 1.8523636363636364
+    },
+    {
+      "fifa_points": 1205.1,
+      "goals_conceded_avg": 1.7,
+      "goals_scored_avg": 0.9,
+      "group": "G",
+      "name": "New Zealand",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.973,
+        "qf": 0.0,
+        "r16": 0.001,
+        "r32": 0.027,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 6.447159841479524,
+      "sim_avg_goals_scored": 0.4676354029062087
+    },
+    {
+      "fifa_points": 1322.1,
+      "goals_conceded_avg": 1.5,
+      "goals_scored_avg": 1.1,
+      "group": "H",
+      "name": "Cape Verde",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.919,
+        "qf": 0.0,
+        "r16": 0.001,
+        "r32": 0.081,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 5.995133030499676,
+      "sim_avg_goals_scored": 0.7482154445165476
+    },
+    {
+      "fifa_points": 1388.4,
+      "goals_conceded_avg": 1.4,
+      "goals_scored_avg": 1.2,
+      "group": "H",
+      "name": "Saudi Arabia",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.76,
+        "qf": 0.0,
+        "r16": 0.014,
+        "r32": 0.24,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 4.961278426551936,
+      "sim_avg_goals_scored": 0.9960049170251998
+    },
+    {
+      "fifa_points": 1382.1,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.3,
+      "group": "I",
+      "name": "Iraq",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.9,
+        "qf": 0.001,
+        "r16": 0.02,
+        "r32": 0.1,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 5.114386414610702,
+      "sim_avg_goals_scored": 0.7661006087792375
+    },
+    {
+      "fifa_points": 1485.12,
+      "goals_conceded_avg": 1.2,
+      "goals_scored_avg": 1.5,
+      "group": "J",
+      "name": "Algeria",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.227,
+        "qf": 0.013,
+        "r16": 0.066,
+        "r32": 0.773,
+        "sf": 0.004,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 3.3595854922279793,
+      "sim_avg_goals_scored": 1.7761658031088083
+    },
+    {
+      "fifa_points": 1215.2,
+      "goals_conceded_avg": 1.6,
+      "goals_scored_avg": 1.0,
+      "group": "J",
+      "name": "Jordan",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.982,
+        "qf": 0.0,
+        "r16": 0.0,
+        "r32": 0.018,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 7.531146454605699,
+      "sim_avg_goals_scored": 0.5168986083499006
+    },
+    {
+      "fifa_points": 1352.12,
+      "goals_conceded_avg": 1.4,
+      "goals_scored_avg": 1.1,
+      "group": "K",
+      "name": "DR Congo",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.841,
+        "qf": 0.001,
+        "r16": 0.01,
+        "r32": 0.159,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 4.662145110410095,
+      "sim_avg_goals_scored": 0.7479495268138802
+    },
+    {
+      "fifa_points": 1375.3,
+      "goals_conceded_avg": 1.3,
+      "goals_scored_avg": 1.2,
+      "group": "K",
+      "name": "Uzbekistan",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.735,
+        "qf": 0.003,
+        "r16": 0.028,
+        "r32": 0.265,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 4.065230582524272,
+      "sim_avg_goals_scored": 0.9010922330097088
+    },
+    {
+      "fifa_points": 1345.5,
+      "goals_conceded_avg": 1.5,
+      "goals_scored_avg": 1.2,
+      "group": "L",
+      "name": "Ghana",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.898,
+        "qf": 0.001,
+        "r16": 0.007,
+        "r32": 0.102,
+        "sf": 0.0,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 5.390996784565917,
+      "sim_avg_goals_scored": 0.7536977491961415
+    },
+    {
+      "fifa_points": 1435.2,
+      "goals_conceded_avg": 1.4,
+      "goals_scored_avg": 1.3,
+      "group": "L",
+      "name": "Panama",
+      "probs": {
+        "final": 0.0,
+        "group_exit": 0.645,
+        "qf": 0.004,
+        "r16": 0.04,
+        "r32": 0.355,
+        "sf": 0.001,
+        "winner": 0.0
+      },
+      "sim_avg_goals_conceded": 4.135842399294325,
+      "sim_avg_goals_scored": 1.1290796824463394
+    }
+  ]
+}

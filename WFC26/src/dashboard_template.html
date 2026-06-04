@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup 2026 Simulation Results</title>
+    <meta name="description" content="Interactive visualization of FIFA World Cup 2026 tournament simulations showing stage distributions and head-to-head analysis.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <style>
+        :root {
+            --bg-primary: #0a0e17;
+            --bg-secondary: #121826;
+            --bg-card: rgba(22, 31, 51, 0.65);
+            --bg-card-hover: rgba(28, 40, 66, 0.85);
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --text-muted: #6b7280;
+            --border-color: rgba(255, 255, 255, 0.08);
+            --border-accent: rgba(6, 182, 212, 0.25);
+            
+            --accent-cyan: #06b6d4;
+            --accent-cyan-glow: rgba(6, 182, 212, 0.4);
+            --accent-purple: #8b5cf6;
+            --accent-purple-glow: rgba(139, 92, 246, 0.4);
+            --accent-green: #10b981;
+            --accent-orange: #f59e0b;
+            --accent-rose: #f43f5e;
+            
+            --font-family: 'Outfit', sans-serif;
+            --glass-blur: 16px;
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            background-image: 
+                radial-gradient(at 10% 10%, rgba(139, 92, 246, 0.08) 0px, transparent 50%),
+                radial-gradient(at 90% 10%, rgba(6, 182, 212, 0.08) 0px, transparent 50%),
+                radial-gradient(at 50% 90%, rgba(16, 185, 129, 0.05) 0px, transparent 50%);
+            background-attachment: fixed;
+            color: var(--text-primary);
+            font-family: var(--font-family);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 2.5rem 1.5rem;
+        }
+
+        /* Header section */
+        header {
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        .header-title h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #fff 30%, var(--accent-cyan) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.5rem;
+        }
+
+        .header-title p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+
+        .meta-badge {
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            padding: 0.75rem 1.5rem;
+            border-radius: 100px;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            backdrop-filter: blur(var(--glass-blur));
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .meta-badge strong {
+            color: var(--accent-cyan);
+            font-weight: 700;
+            text-shadow: 0 0 10px var(--accent-cyan-glow);
+        }
+
+        .pulse-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--accent-green);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 10px var(--accent-green);
+            animation: pulse 1.8s infinite;
+        }
+
+        /* Top metrics summary cards */
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease-out 0.1s both;
+        }
+
+        .metric-card {
+            background: var(--bg-card);
+            backdrop-filter: blur(var(--glass-blur));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 1.75rem;
+            position: relative;
+            overflow: hidden;
+            transition: var(--transition);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+        }
+
+        .metric-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: var(--accent-cyan);
+            opacity: 0.8;
+            transition: var(--transition);
+        }
+
+        .metric-card.purple::before { background: var(--accent-purple); }
+        .metric-card.orange::before { background: var(--accent-orange); }
+
+        .metric-card:hover {
+            transform: translateY(-5px);
+            background: var(--bg-card-hover);
+            border-color: var(--border-accent);
+            box-shadow: 0 12px 40px rgba(6, 182, 212, 0.1);
+        }
+
+        .metric-card:hover::before {
+            height: 100%;
+            width: 6px;
+        }
+
+        .metric-label {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 0.75rem;
+            font-weight: 500;
+        }
+
+        .metric-value {
+            font-size: 2.2rem;
+            font-weight: 700;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+        }
+
+        .metric-sub {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .metric-sub span {
+            color: var(--accent-cyan);
+            font-weight: 600;
+        }
+
+        /* Visual Charts Section */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease-out 0.2s both;
+        }
+
+        @media (max-width: 1024px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .panel {
+            background: var(--bg-card);
+            backdrop-filter: blur(var(--glass-blur));
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+
+        .panel-header {
+            margin-bottom: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .panel-title {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            height: 380px;
+        }
+
+        /* H2H Custom Card Styling */
+        .h2h-header-versus {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            padding-bottom: 1.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .h2h-team {
+            text-align: center;
+            flex: 1;
+        }
+
+        .h2h-team-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: #fff;
+        }
+
+        .h2h-vs-badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 0.35rem 0.75rem;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+            letter-spacing: 0.1em;
+        }
+
+        .h2h-ratio-container {
+            margin-bottom: 1.5rem;
+        }
+
+        .h2h-ratio-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            color: var(--text-secondary);
+        }
+
+        .h2h-ratio-labels strong {
+            color: #fff;
+        }
+
+        .h2h-ratio-bar {
+            height: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            overflow: hidden;
+            display: flex;
+        }
+
+        .h2h-ratio-fill {
+            height: 100%;
+            transition: var(--transition);
+        }
+
+        .h2h-ratio-fill.france {
+            background: linear-gradient(90deg, #1d4ed8, #3b82f6);
+        }
+
+        .h2h-ratio-fill.spain {
+            background: linear-gradient(90deg, #f59e0b, #ef4444);
+        }
+
+        .h2h-stats-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .h2h-stat-box {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .h2h-stat-val {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--accent-cyan);
+            margin-bottom: 0.25rem;
+        }
+
+        .h2h-stat-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Interactive Table Section */
+        .table-section {
+            margin-bottom: 3rem;
+            animation: fadeInUp 0.8s ease-out 0.3s both;
+        }
+
+        .table-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .search-wrapper {
+            position: relative;
+            flex: 1;
+            max-width: 400px;
+            min-width: 250px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            font-family: var(--font-family);
+            font-size: 0.95rem;
+            outline: none;
+            transition: var(--transition);
+        }
+
+        .search-input:focus {
+            background: rgba(255, 255, 255, 0.07);
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(6, 182, 212, 0.15);
+        }
+
+        .filter-select {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: #fff;
+            padding: 0.75rem 1.25rem;
+            border-radius: 10px;
+            font-family: var(--font-family);
+            font-size: 0.95rem;
+            outline: none;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .filter-select:focus {
+            border-color: var(--accent-cyan);
+        }
+
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            background: rgba(22, 31, 51, 0.4);
+            box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th {
+            background: rgba(18, 24, 38, 0.85);
+            padding: 1.1rem 1.2rem;
+            font-weight: 600;
+            color: #fff;
+            border-bottom: 2px solid var(--border-color);
+            cursor: pointer;
+            user-select: none;
+            transition: var(--transition);
+            white-space: nowrap;
+        }
+
+        th:hover {
+            color: var(--accent-cyan);
+            background: rgba(22, 31, 51, 0.9);
+        }
+
+        th.sort-active {
+            color: var(--accent-cyan);
+        }
+
+        th.sort-active::after {
+            content: ' ▾';
+            font-size: 0.8rem;
+        }
+        th.sort-active.asc::after {
+            content: ' ▴';
+        }
+
+        td {
+            padding: 0.95rem 1.2rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-secondary);
+            white-space: nowrap;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tr {
+            transition: var(--transition);
+        }
+
+        tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+            color: #fff;
+        }
+
+        .team-cell {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+            color: #fff;
+        }
+
+        .group-badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--text-secondary);
+        }
+
+        .prob-bar-container {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            min-width: 140px;
+        }
+
+        .prob-bar {
+            flex: 1;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .prob-bar-fill {
+            height: 100%;
+            border-radius: 3px;
+            background: var(--accent-cyan);
+            transition: width 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .prob-bar-fill.winner { background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple)); }
+        .prob-bar-fill.final { background: var(--accent-purple); }
+        .prob-bar-fill.sf { background: var(--accent-green); }
+        .prob-bar-fill.qf { background: var(--accent-orange); }
+
+        .prob-text {
+            font-family: monospace;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #fff;
+            width: 45px;
+            text-align: right;
+        }
+
+        .empty-state {
+            padding: 3rem;
+            text-align: center;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        /* Error Notification style */
+        .alert-error {
+            background: rgba(244, 63, 94, 0.1);
+            border: 1px solid var(--accent-rose);
+            color: #fff;
+            padding: 1.5rem;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            text-align: center;
+            display: none;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+            }
+            70% {
+                box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Bracket Layout Styles */
+        .bracket-outer-container {
+            width: 100%;
+            overflow-x: auto;
+            padding: 1rem 0;
+            scrollbar-width: thin;
+            scrollbar-color: var(--border-color) transparent;
+        }
+        
+        .bracket-outer-container::-webkit-scrollbar {
+            height: 6px;
+        }
+        .bracket-outer-container::-webkit-scrollbar-thumb {
+            background-color: var(--border-color);
+            border-radius: 3px;
+        }
+        
+        .bracket-scroll-container {
+            display: flex;
+            justify-content: space-between;
+            min-width: 1600px; /* Ensures columns don't compress too much */
+            height: 850px;
+            padding: 1rem 0;
+            position: relative;
+        }
+        
+        .bracket-column {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            min-width: 175px;
+            flex: 1;
+            padding: 0 10px;
+            height: 100%;
+        }
+        
+        .bracket-column.center {
+            justify-content: center;
+            gap: 2.5rem;
+            min-width: 220px;
+        }
+        
+        .match-card {
+            background: rgba(18, 24, 38, 0.6);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 0.75rem;
+            position: relative;
+            transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+        }
+        
+        .match-card:hover {
+            border-color: var(--accent-cyan);
+            box-shadow: 0 0 15px var(--accent-cyan-glow);
+            background: var(--bg-card-hover);
+        }
+        
+        .match-header {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            padding-bottom: 0.25rem;
+        }
+        
+        .team-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            padding: 0.15rem 0.25rem;
+            border-radius: 4px;
+            transition: var(--transition);
+        }
+        
+        .team-row.winner {
+            color: #fff;
+            font-weight: 700;
+        }
+        
+        .team-row.winner::after {
+            content: '✓';
+            color: var(--accent-green);
+            font-size: 0.75rem;
+            margin-left: auto;
+            padding-left: 6px;
+        }
+        
+        .team-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 105px;
+        }
+        
+        .team-prob {
+            font-size: 0.75rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.1rem 0.35rem;
+            border-radius: 4px;
+            color: var(--text-secondary);
+            font-family: monospace;
+            margin-left: 6px;
+        }
+        
+        .team-row.winner .team-prob {
+            background: rgba(16, 185, 129, 0.15);
+            color: var(--accent-green);
+        }
+        
+        /* Champion Box Styling */
+        .champion-box {
+            background: linear-gradient(135deg, rgba(245, 158, 11, 0.12) 0%, rgba(139, 92, 246, 0.12) 100%);
+            border: 1px solid var(--accent-orange);
+            border-radius: 12px;
+            padding: 1.25rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.15);
+            transition: var(--transition);
+            cursor: pointer;
+        }
+        
+        .champion-box:hover {
+            transform: scale(1.03);
+            box-shadow: 0 0 35px rgba(245, 158, 11, 0.25);
+            border-color: #fff;
+        }
+        
+        .champion-label {
+            font-size: 0.75rem;
+            color: var(--accent-orange);
+            text-transform: uppercase;
+            font-weight: 800;
+            letter-spacing: 0.1em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .champion-name {
+            font-size: 1.5rem;
+            font-weight: 800;
+            color: #fff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+        
+        .champion-prob {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+        
+        /* Interactive Highlight Paths */
+        .team-row.highlight-team {
+            color: var(--accent-cyan) !important;
+            text-shadow: 0 0 8px var(--accent-cyan-glow);
+        }
+        .match-card.highlight-match {
+            border-color: var(--accent-cyan) !important;
+            box-shadow: 0 0 15px var(--accent-cyan-glow) !important;
+            background: var(--bg-card-hover) !important;
+        }
+        .champion-box.highlight-match {
+            border-color: var(--accent-cyan) !important;
+            box-shadow: 0 0 25px var(--accent-cyan-glow) !important;
+        }
+        .champion-name.highlight-team {
+            color: var(--accent-cyan) !important;
+            text-shadow: 0 0 12px var(--accent-cyan-glow);
+        }
+        
+        /* Tooltip styling */
+        .match-tooltip {
+            position: absolute;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 240px;
+            background: rgba(10, 14, 23, 0.98);
+            border: 1px solid var(--border-accent);
+            border-radius: 8px;
+            padding: 0.8rem;
+            display: none;
+            z-index: 100;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+            pointer-events: none;
+            backdrop-filter: blur(10px);
+            font-family: var(--font-family);
+        }
+        
+        .match-card:hover .match-tooltip, .champion-box:hover .match-tooltip {
+            display: block;
+            animation: tooltipFadeIn 0.2s ease-out;
+        }
+        
+        @keyframes tooltipFadeIn {
+            from {
+                opacity: 0;
+                transform: translate(-50%, 10px);
+            }
+            to {
+                opacity: 1;
+                transform: translate(-50%, 0);
+            }
+        }
+        
+        .tooltip-title {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 0.25rem;
+            text-align: center;
+        }
+        
+        .tooltip-section {
+            margin-bottom: 0.5rem;
+        }
+        .tooltip-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .tooltip-sec-title {
+            font-size: 0.7rem;
+            color: var(--accent-cyan);
+            text-transform: uppercase;
+            font-weight: 700;
+            margin-bottom: 0.2rem;
+        }
+        
+        .tooltip-row {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            padding: 0.05rem 0;
+        }
+        .tooltip-row span:last-child {
+            font-family: monospace;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Error Alert -->
+        <div id="error-alert" class="alert-error">
+            <h2>Unable to load simulation data</h2>
+            <p style="margin-top: 0.5rem;">Please ensure you have run the simulation runner script (<code>julia run.jl</code>) first to generate the data files.</p>
+        </div>
+
+        <header>
+            <div class="header-title">
+                <h1>FIFA World Cup 2026</h1>
+                <p>Advanced Monte Carlo Simulation Results Dashboard</p>
+            </div>
+            <div class="meta-badge" id="sim-badge">
+                <span class="pulse-dot"></span>
+                <span>Simulations: <strong id="simulation-count">0</strong></span>
+            </div>
+        </header>
+
+        <!-- Summary Metrics -->
+        <section class="summary-grid" id="summary-section">
+            <div class="metric-card" id="top-favorite-card">
+                <div class="metric-label">Tournament Favorite</div>
+                <div class="metric-value" id="top-fav-name">-</div>
+                <div class="metric-sub">Win Probability: <span id="top-fav-prob">0.0%</span></div>
+            </div>
+            <div class="metric-card purple" id="second-favorite-card">
+                <div class="metric-label">Second Favorite</div>
+                <div class="metric-value" id="second-fav-name">-</div>
+                <div class="metric-sub">Win Probability: <span id="second-fav-prob">0.0%</span></div>
+            </div>
+            <div class="metric-card orange" id="h2h-probability-card">
+                <div class="metric-label">FRA vs ESP Matchup</div>
+                <div class="metric-value" id="h2h-prob-value">0.0%</div>
+                <div class="metric-sub">Probability of meeting in knockout</div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-grid">
+            <!-- Left panel: Winner & SF distribution for top teams -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">Top 10 Contenders Probability Distributions</div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="chart-canvas"></canvas>
+                </div>
+            </div>
+
+            <!-- Right panel: France vs Spain Head-to-Head Details -->
+            <div class="panel">
+                <div class="panel-header">
+                    <div class="panel-title">FRA vs ESP Head-to-Head</div>
+                </div>
+                <div class="h2h-header-versus">
+                    <div class="h2h-team">
+                        <div class="h2h-team-name">France</div>
+                    </div>
+                    <div class="h2h-vs-badge">VS</div>
+                    <div class="h2h-team">
+                        <div class="h2h-team-name">Spain</div>
+                    </div>
+                </div>
+                <div class="h2h-ratio-container">
+                    <div class="h2h-ratio-labels">
+                        <span>France Wins (<strong id="fra-win-ratio-txt">0%</strong>)</span>
+                        <span>Spain Wins (<strong id="esp-win-ratio-txt">0%</strong>)</span>
+                    </div>
+                    <div class="h2h-ratio-bar">
+                        <div id="fra-win-bar" class="h2h-ratio-fill france" style="width: 50%"></div>
+                        <div id="esp-win-bar" class="h2h-ratio-fill spain" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="h2h-stats-list">
+                    <div class="h2h-stat-box">
+                        <div class="h2h-stat-val" id="h2h-meetings-val">0</div>
+                        <div class="h2h-stat-label">Total Matches</div>
+                    </div>
+                    <div class="h2h-stat-box">
+                        <div class="h2h-stat-val" id="h2h-prob-val-badge">0%</div>
+                        <div class="h2h-stat-label">Meeting Prob.</div>
+                    </div>
+                </div>
+                <div class="chart-container" style="height: 180px;">
+                    <canvas id="h2h-chart-canvas"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tournament Bracket Section -->
+        <section class="panel table-section" style="margin-bottom: 3rem; overflow: hidden;">
+            <div class="panel-header" style="margin-bottom: 1.5rem;">
+                <div class="panel-title">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--accent-cyan); margin-right: 6px;"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    Most Likely Tournament Bracket
+                </div>
+            </div>
+            
+            <div class="bracket-outer-container">
+                <div class="bracket-scroll-container" id="bracket-container">
+                    <!-- Left Side Columns: R32 -> R16 -> QF -> SF -->
+                    <div class="bracket-column" id="col-l-r32"></div>
+                    <div class="bracket-column" id="col-l-r16"></div>
+                    <div class="bracket-column" id="col-l-qf"></div>
+                    <div class="bracket-column" id="col-l-sf"></div>
+                    
+                    <!-- Center Column: Champion, Final, 3rd Place -->
+                    <div class="bracket-column center" id="col-center">
+                        <div class="champion-box" id="champion-box">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div class="match-card center-match" id="card-final">
+                            <!-- Populated by JS -->
+                        </div>
+                        <div class="match-card center-match" id="card-3rd">
+                            <!-- Populated by JS -->
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side Columns: SF <- QF <- R16 <- R32 -->
+                    <div class="bracket-column" id="col-r-sf"></div>
+                    <div class="bracket-column" id="col-r-qf"></div>
+                    <div class="bracket-column" id="col-r-r16"></div>
+                    <div class="bracket-column" id="col-r-r32"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detailed Table -->
+        <section class="panel table-section">
+            <div class="panel-header" style="margin-bottom: 1rem;">
+                <div class="panel-title">Complete Team Probabilities</div>
+            </div>
+            
+            <div class="table-controls">
+                <div class="search-wrapper">
+                    <input type="text" id="search-input" class="search-input" placeholder="Search team by name...">
+                </div>
+                <select id="group-filter" class="filter-select">
+                    <option value="ALL">All Groups</option>
+                    <option value="A">Group A</option>
+                    <option value="B">Group B</option>
+                    <option value="C">Group C</option>
+                    <option value="D">Group D</option>
+                    <option value="E">Group E</option>
+                    <option value="F">Group F</option>
+                    <option value="G">Group G</option>
+                    <option value="H">Group H</option>
+                    <option value="I">Group I</option>
+                    <option value="J">Group J</option>
+                    <option value="K">Group K</option>
+                    <option value="L">Group L</option>
+                </select>
+            </div>
+
+            <div class="table-container">
+                <table id="teams-table">
+                    <thead>
+                        <tr>
+                            <th id="th-name" class="sort-active" data-column="name">Team</th>
+                            <th id="th-group" data-column="group">Group</th>
+                            <th id="th-fifa" data-column="fifa_points">FIFA Points</th>
+                            <th id="th-gs" data-column="probs.group_exit">Group Exit %</th>
+                            <th id="th-r32" data-column="probs.r32">R32 %</th>
+                            <th id="th-r16" data-column="probs.r16">R16 %</th>
+                            <th id="th-qf" data-column="probs.qf">QF %</th>
+                            <th id="th-sf" data-column="probs.sf">SF %</th>
+                            <th id="th-final" data-column="probs.final">Finalist %</th>
+                            <th id="th-winner" data-column="probs.winner">Winner %</th>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body">
+                        <!-- Filled by JS -->
+                    </tbody>
+                </table>
+                <div id="no-results" class="empty-state" style="display: none;">
+                    No teams found matching search criteria.
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Data Import fallback and Init Script -->
+    <script>
+        const SIMULATION_DATA = /*__DATA_PLACEHOLDER__*/ null;
+
+        // Set chart default styling for Chart.js
+        Chart.defaults.color = '#9ca3af';
+        Chart.defaults.font.family = "'Outfit', sans-serif";
+        Chart.defaults.borderColor = 'rgba(255, 255, 255, 0.08)';
+
+        let activeSortColumn = 'probs.winner';
+        let activeSortAsc = false;
+        let mainChart = null;
+        let h2hChart = null;
+        
+        document.addEventListener('DOMContentLoaded', () => {
+            if (SIMULATION_DATA !== null) {
+                initDashboard(SIMULATION_DATA);
+            } else {
+                document.getElementById('error-alert').style.display = 'block';
+            }
+        });
+
+        function getNestedValue(obj, path) {
+            return path.split('.').reduce((acc, part) => acc && acc[part], obj);
+        }
+
+        function initDashboard(data) {
+            if (!data) return;
+
+            // 1. Populate metadata
+            document.getElementById('simulation-count').textContent = data.N.toLocaleString();
+            
+            // Sort teams descending by winner probability for favorites
+            const teams = [...data.teams];
+            const sortedByWinner = [...teams].sort((a, b) => b.probs.winner - a.probs.winner);
+            
+            if (sortedByWinner.length > 0) {
+                document.getElementById('top-fav-name').textContent = sortedByWinner[0].name;
+                document.getElementById('top-fav-prob').textContent = (sortedByWinner[0].probs.winner * 100).toFixed(1) + '%';
+            }
+            if (sortedByWinner.length > 1) {
+                document.getElementById('second-fav-name').textContent = sortedByWinner[1].name;
+                document.getElementById('second-fav-prob').textContent = (sortedByWinner[1].probs.winner * 100).toFixed(1) + '%';
+            }
+
+            // 2. Head to Head Details
+            if (data.h2h) {
+                const h2h = data.h2h;
+                document.getElementById('h2h-prob-value').textContent = (h2h.prob_of_meeting * 100).toFixed(1) + '%';
+                document.getElementById('h2h-prob-val-badge').textContent = (h2h.prob_of_meeting * 100).toFixed(1) + '%';
+                document.getElementById('h2h-meetings-val').textContent = h2h.total_meetings.toLocaleString();
+                
+                const totalWins = h2h.france_wins + h2h.spain_wins;
+                let fraPercent = 50;
+                let espPercent = 50;
+                if (totalWins > 0) {
+                    fraPercent = (h2h.france_wins / totalWins) * 100;
+                    espPercent = (h2h.spain_wins / totalWins) * 100;
+                }
+                
+                document.getElementById('fra-win-ratio-txt').textContent = fraPercent.toFixed(0) + '%';
+                document.getElementById('esp-win-ratio-txt').textContent = espPercent.toFixed(0) + '%';
+                document.getElementById('fra-win-bar').style.width = fraPercent + '%';
+                document.getElementById('esp-win-bar').style.width = espPercent + '%';
+
+                renderH2HChart(h2h.stages);
+            }
+
+            // 3. Render Top 10 chart
+            renderTopTeamsChart(sortedByWinner.slice(0, 10));
+
+            // 4. Render bracket
+            if (data.bracket) {
+                renderTournamentBracket(data.bracket);
+            }
+
+            // 5. Set up interactive table
+            renderTable(teams);
+            setupTableSorting(teams);
+            setupSearchFilters(teams);
+        }
+
+        function renderTournamentBracket(bracketData) {
+            // Helper to clean column
+            const clearCol = (id) => {
+                const el = document.getElementById(id);
+                if (el) el.innerHTML = '';
+            };
+            
+            // Clear columns
+            const colIds = [
+                'col-l-r32', 'col-l-r16', 'col-l-qf', 'col-l-sf',
+                'col-r-sf', 'col-r-qf', 'col-r-r16', 'col-r-r32'
+            ];
+            colIds.forEach(clearCol);
+            
+            // Render columns
+            bracketData.forEach(slot => {
+                const idx = slot.slot_index;
+                let colId = null;
+                
+                if (idx >= 1 && idx <= 8) colId = 'col-l-r32';
+                else if (idx >= 9 && idx <= 16) colId = 'col-r-r32';
+                else if (idx >= 17 && idx <= 20) colId = 'col-l-r16';
+                else if (idx >= 21 && idx <= 24) colId = 'col-r-r16';
+                else if (idx >= 25 && idx <= 26) colId = 'col-l-qf';
+                else if (idx >= 27 && idx <= 28) colId = 'col-r-qf';
+                else if (idx === 29) colId = 'col-l-sf';
+                else if (idx === 30) colId = 'col-r-sf';
+                
+                if (colId) {
+                    const col = document.getElementById(colId);
+                    if (col) {
+                        col.appendChild(createMatchCard(slot));
+                    }
+                } else if (idx === 31) {
+                    // 3rd Place Match
+                    const card3rd = document.getElementById('card-3rd');
+                    if (card3rd) {
+                        const newCard = createMatchCard(slot);
+                        card3rd.innerHTML = newCard.innerHTML;
+                        card3rd.className = newCard.className + ' center-match';
+                    }
+                } else if (idx === 32) {
+                    // Final
+                    const cardFinal = document.getElementById('card-final');
+                    if (cardFinal) {
+                        const newCard = createMatchCard(slot);
+                        cardFinal.innerHTML = newCard.innerHTML;
+                        cardFinal.className = newCard.className + ' center-match';
+                    }
+                    
+                    // Champion box
+                    populateChampionBox(bracketData);
+                }
+            });
+            
+            setupBracketHighlights();
+        }
+        
+        function createMatchCard(slot) {
+            const teamA = slot.team_a_probs[0] || { team: "TBD", prob: 0 };
+            const teamB = slot.team_b_probs[0] || { team: "TBD", prob: 0 };
+            const winner = slot.winner_probs[0] || { team: "TBD", prob: 0 };
+            
+            const isWinnerA = teamA.team !== "TBD" && teamA.team === winner.team;
+            const isWinnerB = teamB.team !== "TBD" && teamB.team === winner.team;
+            
+            const buildTooltipSection = (title, probs) => {
+                let rowsHtml = probs.map(p => `
+                    <div class="tooltip-row">
+                        <span>${p.team}</span>
+                        <span>${(p.prob * 100).toFixed(1)}%</span>
+                    </div>
+                `).join('');
+                return `
+                    <div class="tooltip-section">
+                        <div class="tooltip-sec-title">${title}</div>
+                        ${rowsHtml || '<div style="color: var(--text-muted); font-size: 0.75rem;">None</div>'}
+                    </div>
+                `;
+            };
+            
+            const tooltipHtml = `
+                <div class="match-tooltip">
+                    <div class="tooltip-title">${slot.label}</div>
+                    ${buildTooltipSection("Likely Team A", slot.team_a_probs)}
+                    ${buildTooltipSection("Likely Team B", slot.team_b_probs)}
+                    ${buildTooltipSection("Likely Winner", slot.winner_probs)}
+                </div>
+            `;
+            
+            const card = document.createElement('div');
+            card.className = 'match-card';
+            card.innerHTML = `
+                <div class="match-header">${slot.label}</div>
+                <div class="team-row ${isWinnerA ? 'winner' : ''}" data-team="${teamA.team}">
+                    <span class="team-name" title="${teamA.team}">${teamA.team}</span>
+                    <span class="team-prob">${(teamA.prob * 100).toFixed(0)}%</span>
+                </div>
+                <div class="team-row ${isWinnerB ? 'winner' : ''}" data-team="${teamB.team}">
+                    <span class="team-name" title="${teamB.team}">${teamB.team}</span>
+                    <span class="team-prob">${(teamB.prob * 100).toFixed(0)}%</span>
+                </div>
+                ${tooltipHtml}
+            `;
+            return card;
+        }
+        
+        function populateChampionBox(bracketData) {
+            const finalSlot = bracketData.find(s => s.slot_index === 32);
+            const champion = finalSlot && finalSlot.winner_probs[0] ? finalSlot.winner_probs[0] : { team: "TBD", prob: 0 };
+            
+            const buildTooltipSection = (title, probs) => {
+                let rowsHtml = probs.map(p => `
+                    <div class="tooltip-row">
+                        <span>${p.team}</span>
+                        <span>${(p.prob * 100).toFixed(1)}%</span>
+                    </div>
+                `).join('');
+                return `
+                    <div class="tooltip-section">
+                        <div class="tooltip-sec-title">${title}</div>
+                        ${rowsHtml || '<div style="color: var(--text-muted); font-size: 0.75rem;">None</div>'}
+                    </div>
+                `;
+            };
+            
+            const box = document.getElementById('champion-box');
+            if (box) {
+                box.innerHTML = `
+                    <div class="champion-label">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" style="color: var(--accent-orange); margin-right: 4px;"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+                        World Cup Champion
+                    </div>
+                    <div class="champion-name" data-team="${champion.team}">${champion.team}</div>
+                    <div class="champion-prob">Win Prob: ${(champion.prob * 100).toFixed(1)}%</div>
+                    <div class="match-tooltip">
+                        <div class="tooltip-title">Champion Probabilities</div>
+                        ${buildTooltipSection("Likely Winners", finalSlot ? finalSlot.winner_probs : [])}
+                    </div>
+                `;
+            }
+        }
+        
+        function setupBracketHighlights() {
+            const bracket = document.getElementById('bracket-container');
+            if (!bracket) return;
+            
+            // Highlight handlers using delegation
+            const onMouseOver = (e) => {
+                const teamRow = e.target.closest('.team-row') || e.target.closest('.champion-name');
+                if (!teamRow) return;
+                const teamName = teamRow.getAttribute('data-team');
+                if (!teamName || teamName === "TBD") return;
+                
+                document.querySelectorAll(`[data-team="${teamName}"]`).forEach(el => {
+                    el.classList.add('highlight-team');
+                    const card = el.closest('.match-card') || el.closest('.champion-box');
+                    if (card) card.classList.add('highlight-match');
+                });
+            };
+            
+            const onMouseOut = (e) => {
+                const teamRow = e.target.closest('.team-row') || e.target.closest('.champion-name');
+                if (!teamRow) return;
+                
+                document.querySelectorAll('.highlight-team').forEach(el => {
+                    el.classList.remove('highlight-team');
+                });
+                document.querySelectorAll('.highlight-match').forEach(el => {
+                    el.classList.remove('highlight-match');
+                });
+            };
+            
+            bracket.addEventListener('mouseover', onMouseOver);
+            bracket.addEventListener('mouseout', onMouseOut);
+        }
+
+        function renderTopTeamsChart(topTeams) {
+            const ctx = document.getElementById('chart-canvas').getContext('2d');
+            
+            const labels = topTeams.map(t => t.name);
+            const winnerData = topTeams.map(t => t.probs.winner * 100);
+            const finalData = topTeams.map(t => t.probs.final * 100);
+            const sfData = topTeams.map(t => t.probs.sf * 100);
+
+            if (mainChart) mainChart.destroy();
+
+            mainChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'Win Champion %',
+                            data: winnerData,
+                            backgroundColor: '#06b6d4',
+                            borderRadius: 6,
+                            borderWidth: 0,
+                            barPercentage: 0.7,
+                            categoryPercentage: 0.8
+                        },
+                        {
+                            label: 'Reach Final %',
+                            data: finalData,
+                            backgroundColor: '#8b5cf6',
+                            borderRadius: 6,
+                            borderWidth: 0,
+                            barPercentage: 0.7,
+                            categoryPercentage: 0.8
+                        },
+                        {
+                            label: 'Reach Semi-Final %',
+                            data: sfData,
+                            backgroundColor: '#10b981',
+                            borderRadius: 6,
+                            borderWidth: 0,
+                            barPercentage: 0.7,
+                            categoryPercentage: 0.8
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    indexAxis: 'y',
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                            labels: {
+                                color: '#e5e7eb',
+                                padding: 15,
+                                font: {
+                                    size: 12,
+                                    weight: '500'
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return ` ${context.dataset.label}: ${context.raw.toFixed(1)}%`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.05)'
+                            },
+                            ticks: {
+                                color: '#9ca3af',
+                                callback: function(value) {
+                                    return value + '%';
+                                }
+                            },
+                            max: 100
+                        },
+                        y: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                color: '#f3f4f6',
+                                font: {
+                                    size: 13,
+                                    weight: '600'
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderH2HChart(stagesMap) {
+            const ctx = document.getElementById('h2h-chart-canvas').getContext('2d');
+            
+            // Stages to display ordered from earliest to latest
+            const stageOrder = ["R32", "R16", "QF", "SF", "3RD", "FINAL"];
+            const stageLabels = ["Round 32", "Round 16", "Quarters", "Semis", "3rd Place", "Final"];
+            
+            const stageCounts = stageOrder.map(s => stagesMap[s] || 0);
+
+            if (h2hChart) h2hChart.destroy();
+
+            h2hChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: stageLabels,
+                    datasets: [{
+                        label: 'Matches Played',
+                        data: stageCounts,
+                        backgroundColor: 'rgba(139, 92, 246, 0.35)',
+                        borderColor: '#8b5cf6',
+                        borderWidth: 2,
+                        borderRadius: 4,
+                        barPercentage: 0.6
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    return ` Met in ${context.label}: ${context.raw} times`;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: {
+                                display: false
+                            },
+                            ticks: {
+                                font: { size: 10 }
+                            }
+                        },
+                        y: {
+                            grid: {
+                                color: 'rgba(255, 255, 255, 0.05)'
+                            },
+                            ticks: {
+                                font: { size: 9 },
+                                precision: 0
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function renderTable(teams) {
+            const tbody = document.getElementById('table-body');
+            tbody.innerHTML = '';
+            
+            // Search and filter inputs
+            const searchText = document.getElementById('search-input').value.toLowerCase().trim();
+            const groupFilter = document.getElementById('group-filter').value;
+            
+            // Filter
+            let filteredTeams = teams.filter(t => {
+                const matchesSearch = t.name.toLowerCase().includes(searchText);
+                const matchesGroup = groupFilter === 'ALL' || t.group === groupFilter;
+                return matchesSearch && matchesGroup;
+            });
+            
+            // Sort
+            filteredTeams.sort((a, b) => {
+                let valA = getNestedValue(a, activeSortColumn);
+                let valB = getNestedValue(b, activeSortColumn);
+                
+                // Tie breakers or special sorting
+                if (typeof valA === 'string') {
+                    return activeSortAsc ? valA.localeCompare(valB) : valB.localeCompare(valA);
+                } else {
+                    return activeSortAsc ? valA - valB : valB - valA;
+                }
+            });
+
+            if (filteredTeams.length === 0) {
+                document.getElementById('no-results').style.display = 'block';
+                return;
+            } else {
+                document.getElementById('no-results').style.display = 'none';
+            }
+
+            filteredTeams.forEach(t => {
+                const tr = document.createElement('tr');
+                
+                const formatProb = (prob) => (prob * 100).toFixed(1) + '%';
+                
+                // Helper to create progress bar cells
+                const makeProbCell = (val, type) => {
+                    const pct = val * 100;
+                    return `
+                        <td>
+                            <div class="prob-bar-container">
+                                <div class="prob-bar">
+                                    <div class="prob-bar-fill ${type}" style="width: ${pct}%"></div>
+                                </div>
+                                <span class="prob-text">${pct.toFixed(1)}%</span>
+                            </div>
+                        </td>
+                    `;
+                };
+
+                tr.innerHTML = `
+                    <td>
+                        <div class="team-cell">
+                            <span>${t.name}</span>
+                        </div>
+                    </td>
+                    <td><span class="group-badge">Group ${t.group}</span></td>
+                    <td>${t.fifa_points.toFixed(1)}</td>
+                    ${makeProbCell(t.probs.group_exit, 'gs')}
+                    ${makeProbCell(t.probs.r32, 'r32')}
+                    ${makeProbCell(t.probs.r16, 'r16')}
+                    ${makeProbCell(t.probs.qf, 'qf')}
+                    ${makeProbCell(t.probs.sf, 'sf')}
+                    ${makeProbCell(t.probs.final, 'final')}
+                    ${makeProbCell(t.probs.winner, 'winner')}
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function setupTableSorting(teams) {
+            const headers = document.querySelectorAll('#teams-table th');
+            
+            headers.forEach(th => {
+                th.addEventListener('click', () => {
+                    const column = th.getAttribute('data-column');
+                    if (!column) return;
+                    
+                    if (activeSortColumn === column) {
+                        activeSortAsc = !activeSortAsc;
+                    } else {
+                        activeSortColumn = column;
+                        // Default to descending for numbers/probabilities, ascending for names/groups
+                        activeSortAsc = (column === 'name' || column === 'group');
+                    }
+                    
+                    // Update active headers UI
+                    headers.forEach(h => {
+                        h.classList.remove('sort-active', 'asc');
+                    });
+                    
+                    th.classList.add('sort-active');
+                    if (activeSortAsc) {
+                        th.classList.add('asc');
+                    }
+                    
+                    renderTable(teams);
+                });
+            });
+
+            // Set initial sort indicator on Winner Column
+            const winnerHeader = document.getElementById('th-winner');
+            headers.forEach(h => h.classList.remove('sort-active'));
+            winnerHeader.classList.add('sort-active');
+        }
+
+        function setupSearchFilters(teams) {
+            const searchInput = document.getElementById('search-input');
+            const groupFilter = document.getElementById('group-filter');
+            
+            searchInput.addEventListener('input', () => renderTable(teams));
+            groupFilter.addEventListener('change', () => renderTable(teams));
+        }
+    </script>
+</body>
+</html>

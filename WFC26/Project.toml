@@ -1,0 +1,9 @@
+name = "FootballSim"
+uuid = "9e9a4e76-3532-4d1a-96bd-5c02685790d9"
+authors = ["Stephane"]
+version = "0.1.0"
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
