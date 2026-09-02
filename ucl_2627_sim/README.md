@@ -34,10 +34,11 @@ ucl_2627_sim/
 ├── data/
 │   ├── teams.json     # 36 clubs with pots, valuations, coefficients & YTD form
 │   └── fixtures.json  # 144 official league phase matches with dates and venues
-├── ucl_2627_simulation_report.pdf # Comprehensive 4-page publication report (Typst)
+├── ucl_2627_simulation_report.pdf # Comprehensive 5-page publication report (Typst)
 ├── ucl_2627_standings_1M.csv      # Complete 1,000,000 simulations results dataset
-├── french_teams_distribution.png  # Distribution curves for PSG, Lille, Lens
-├── spanish_teams_distribution.png # Distribution curves for all 5 Spanish clubs
+├── french_teams_distribution.png  # Probability curves for French clubs (PSG, Lille, Lens)
+├── spanish_teams_distribution.png # Probability curves for Spanish clubs (5 clubs)
+├── italian_teams_distribution.png # Probability curves for Italian clubs (4 clubs)
 └── README.md
 ```
 
@@ -53,7 +54,7 @@ cargo build --release
 ./target/release/ucl_2627_sim --simulations 1000000 --csv ucl_2627_standings_1M.csv
 
 # Focus on a specific club with detailed distribution and PNG plot
-./target/release/ucl_2627_sim -n 100000 --target-team "Real Madrid" --plot rma_dist.png
+./target/release/ucl_2627_sim -n 100000 --target-team "Inter Milan" --plot inter_dist.png
 
 # Simulate a single season outcome
 ./target/release/ucl_2627_sim --single-season

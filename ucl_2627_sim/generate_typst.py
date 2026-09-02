@@ -28,7 +28,7 @@ with open('ucl_2627_summary.typ', 'w') as f:
     #text(size: 8pt, fill: rgb("#718096"))[
       Simulation Study based on Official UEFA Fixtures, Rankings & Squad Values
       #h(1fr)
-      Page #counter(page).display() of 4
+      Page #counter(page).display() of 5
     ]
   ]
 )
@@ -199,8 +199,8 @@ France is represented by three clubs across three distinct seeding pots in the 2
         - *Squad Value*: €203M | *Coeff*: 16.7
         - *Exp Points*: *7.1 ±3.2* (GD: -7.4)
         - *Top 8 (R16 Bye)*: *0.8%*
-        - *Play-offs (9–24)*: *27.7%*
-        - *Elimination*: *71.5%* (Mean Pos: 27.4)
+        - *Play-offs (9–24)*: *27.8%*
+        - *Elimination*: *71.4%* (Mean Pos: 27.4)
         - *Home*: Sporting, Como, Bodø, Man City
         - *Away*: Slavia, Brugge, Leipzig, Liverpool
       ]
@@ -267,17 +267,64 @@ Spain enters the 2026/27 Champions League with *5 qualified clubs* spanning Pots
   #image("spanish_teams_distribution.png", width: 94%)
 ]
 
+#pagebreak()
+
+== 6. Case Studies: The Italian Contingent (Inter, Napoli, Roma, Como)
+
+Italy is represented by *4 clubs* across all four seeding pots (Pots 1 to 4). Italian clubs occupy pivotal strategic thresholds, spanning the direct Round of 16 cutoff to the play-off battleground:
+
+#v(0.1cm)
+
+#align(center)[
+#table(
+  columns: (22pt, 82pt, 24pt, 42pt, 45pt, 40pt, 36pt, 42pt, 45pt, 40pt, 36pt),
+  stroke: (x, y) => if y == 0 { 1pt + rgb("#2b6cb0") } else { 0.4pt + rgb("#e2e8f0") },
+  fill: (col, row) => {
+    if row == 0 { rgb("#edf2f7") }
+    else if row == 1 { rgb("#f0fff4") }
+    else if row in (2, 3) { rgb("#ebf8ff") }
+    else { rgb("#fffaf0") }
+  },
+  inset: (x: 3pt, y: 2.8pt),
+  align: (col, row) => (
+    if col == 1 { left }
+    else if col in (0, 2) { center }
+    else { right }
+  ),
+  table.header(
+    [*Rk*], [*Club*], [*Pot*], [*Value*], [*Coeff*], [*Exp Pts*], [*GD*], [*Top 8*], [*Play-off*], [*Elim.*], [*Mean*]
+  ),
+  [8], [Inter Milan], [1], [€730M], [127.0], [15.3], [+7.3], [50.1%], [47.1%], [2.8%], [9.7],
+  [14], [SSC Napoli], [3], [€433M], [63.0], [12.0], [+1.4], [14.9%], [68.6%], [16.5%], [16.6],
+  [19], [AS Roma], [2], [€485M], [97.8], [11.1], [-0.2], [10.1%], [64.2%], [25.7%], [18.8],
+  [30], [Como 1907], [4], [€537M], [20.0], [8.1], [-5.7], [1.6%], [38.0%], [60.4%], [25.5],
+)
+]
+
+#v(0.05cm)
+
+=== Strategic Dynamics Across the Italian Field
+1. *Inter Milan (Projected 8th, 50.1% Top 8)*: Inter sits exactly on the knife-edge of direct Round of 16 qualification. An opening fixture away to Real Madrid (MD1) and hosting Liverpool (MD7) are counterbalanced by high-expectancy home ties against Brugge, Shakhtar, and Stuttgart.
+2. *SSC Napoli (Projected 14th, 68.6% Play-offs)*: Antonio Conte's side enjoys the highest play-off certainty among Italian clubs (68.6%). Anchored by home matches against Bodø/Glimt, Brugge, and Viking, Napoli must navigate away fixtures at Manchester City, Porto, and Villarreal.
+3. *AS Roma (Projected 19th, 64.2% Play-offs)*: Roma faces a challenging Pot 2 slate: hosting Real Madrid and visiting Paris Saint-Germain and Manchester United. A top-24 finish will hinge on converting home matches against Slovan Bratislava and Lille.
+4. *Como 1907 (Projected 30th, 38.0% Play-offs)*: An ambitious Pot 4 newcomer boasting an impressive €537M squad valuation, Como faces an unforgiving schedule (hosting PSG, Man United, and Leipzig; visiting Barcelona and Betis). Despite a 60.4% elimination likelihood, Como possesses significant upset potential to crash the play-off bubble (38.0%).
+
+#v(0.05cm)
+#align(center)[
+  #image("italian_teams_distribution.png", width: 94%)
+]
+
 #v(-0.25cm)
 
-== 6. Technical Implementation & Reproducibility
+== 7. Technical Implementation & Reproducibility
 
 ```bash
 # Run 1,000,000 simulations and export CSV
 ./target/release/ucl_2627_sim --simulations 1000000 --csv ucl_2627_standings_1M.csv
 
-# Target specific Spanish clubs for histogram distribution and PNG plots
-./target/release/ucl_2627_sim -n 100000 --target-team "Atlético Madrid" --plot atl_madrid.png
-./target/release/ucl_2627_sim -n 100000 --target-team "Villarreal" --plot villarreal.png
+# Target Italian clubs for histogram distribution and PNG plots
+./target/release/ucl_2627_sim -n 100000 --target-team "Inter Milan" --plot inter_dist.png
+./target/release/ucl_2627_sim -n 100000 --target-team "Como" --plot como_dist.png
 ```
 ''')
-print('generate_typst.py wrote ucl_2627_summary.typ with Stéphane Leon & Gemini')
+print('generate_typst.py wrote expanded 5-page ucl_2627_summary.typ')

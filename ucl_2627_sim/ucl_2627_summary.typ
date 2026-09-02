@@ -22,7 +22,7 @@
     #text(size: 8pt, fill: rgb("#718096"))[
       Simulation Study based on Official UEFA Fixtures, Rankings & Squad Values
       #h(1fr)
-      Page #counter(page).display() of 4
+      Page #counter(page).display() of 5
     ]
   ]
 )
@@ -127,41 +127,41 @@ Standings are resolved strictly under UEFA Champions League regulations: (1) Tot
   table.header(
     [*Rk*], [*Team*], [*Pot*], [*Nat*], [*Coeff*], [*Value*], [*Exp Pts*], [*GD*], [*Top 8*], [*Play-off*], [*Elim.*]
   ),
-  [1], [Bayern Munich], [1], [GER], [147.5], [€1040M], [17.8], [+12.3], [79.6%], [20.0%], [0.3%],
-  [2], [Real Madrid], [1], [ESP], [144.5], [€1460M], [17.5], [+12.5], [76.9%], [22.7%], [0.4%],
-  [3], [Liverpool], [1], [ENG], [130.0], [€1030M], [17.4], [+11.5], [75.2%], [24.2%], [0.5%],
-  [4], [Paris Saint-Germain], [1], [FRA], [132.0], [€1360M], [16.9], [+10.7], [70.3%], [29.0%], [0.8%],
-  [5], [Manchester City], [1], [ENG], [125.5], [€1460M], [16.4], [+9.8], [63.7%], [35.2%], [1.1%],
+  [1], [Bayern Munich], [1], [GER], [147.5], [€1040M], [17.8], [+12.3], [79.6%], [20.0%], [0.4%],
+  [2], [Real Madrid], [1], [ESP], [144.5], [€1460M], [17.5], [+12.5], [76.8%], [22.8%], [0.4%],
+  [3], [Liverpool], [1], [ENG], [130.0], [€1030M], [17.4], [+11.5], [75.3%], [24.2%], [0.5%],
+  [4], [Paris Saint-Germain], [1], [FRA], [132.0], [€1360M], [16.9], [+10.8], [70.3%], [28.9%], [0.7%],
+  [5], [Manchester City], [1], [ENG], [125.5], [€1460M], [16.4], [+9.8], [63.6%], [35.3%], [1.2%],
   [6], [Barcelona], [1], [ESP], [113.2], [€1260M], [16.3], [+10.1], [63.1%], [35.9%], [1.0%],
-  [7], [Arsenal], [1], [ENG], [119.0], [€1370M], [15.8], [+9.5], [57.6%], [40.8%], [1.6%],
+  [7], [Arsenal], [1], [ENG], [119.0], [€1370M], [15.8], [+9.5], [57.6%], [40.7%], [1.6%],
   [8], [Inter Milan], [1], [ITA], [127.0], [€730M], [15.3], [+7.3], [50.1%], [47.1%], [2.8%],
-  [9], [Borussia Dortmund], [2], [GER], [100.8], [€564M], [14.0], [+5.0], [34.1%], [59.7%], [6.2%],
-  [10], [Sporting CP], [2], [POR], [84.0], [€379M], [13.6], [+4.7], [30.6%], [61.7%], [7.7%],
+  [9], [Borussia Dortmund], [2], [GER], [100.8], [€564M], [14.0], [+5.0], [34.0%], [59.9%], [6.1%],
+  [10], [Sporting CP], [2], [POR], [84.0], [€379M], [13.6], [+4.7], [30.6%], [61.8%], [7.7%],
   [11], [PSV Eindhoven], [2], [NED], [71.2], [€281M], [13.2], [+3.4], [26.3%], [63.7%], [10.0%],
-  [12], [Porto], [2], [POR], [80.8], [€451M], [13.2], [+3.5], [26.1%], [63.6%], [10.3%],
-  [13], [Atlético Madrid], [1], [ESP], [104.8], [€681M], [12.9], [+3.2], [23.3%], [65.2%], [11.6%],
-  [14], [Napoli], [3], [ITA], [63.0], [€433M], [12.0], [+1.4], [15.0%], [68.6%], [16.4%],
-  [15], [Manchester United], [2], [ENG], [76.5], [€924M], [11.9], [+1.9], [15.3%], [66.4%], [18.3%],
-  [16], [Fenerbahçe], [3], [TUR], [57.8], [€293M], [11.7], [+1.0], [14.4%], [65.0%], [20.7%],
-  [17], [Galatasaray], [3], [TUR], [53.5], [€418M], [11.4], [+0.3], [12.3%], [65.0%], [22.7%],
-  [18], [Aston Villa], [2], [ENG], [83.0], [€586M], [11.3], [+0.5], [12.1%], [64.8%], [23.1%],
-  [19], [Roma], [2], [ITA], [97.8], [€485M], [11.1], [-0.2], [10.1%], [64.2%], [25.6%],
-  [20], [RB Leipzig], [3], [GER], [61.0], [€513M], [10.3], [-1.5], [7.2%], [59.2%], [33.6%],
-  [21], [Feyenoord], [3], [NED], [71.0], [€204M], [9.9], [-2.4], [5.5%], [55.4%], [39.0%],
-  [22], [Lille], [3], [FRA], [68.8], [€245M], [9.8], [-2.3], [5.2%], [55.4%], [39.3%],
-  [23], [Slavia Prague], [4], [CZE], [44.0], [€113M], [9.5], [-3.2], [3.9%], [52.9%], [43.2%],
-  [24], [VfB Stuttgart], [4], [GER], [27.5], [€396M], [9.4], [-3.1], [3.9%], [52.1%], [44.0%],
+  [12], [Porto], [2], [POR], [80.8], [€451M], [13.2], [+3.5], [26.2%], [63.6%], [10.2%],
+  [13], [Atlético Madrid], [1], [ESP], [104.8], [€681M], [12.9], [+3.2], [23.4%], [65.0%], [11.6%],
+  [14], [Napoli], [3], [ITA], [63.0], [€433M], [12.0], [+1.4], [14.9%], [68.6%], [16.5%],
+  [15], [Manchester United], [2], [ENG], [76.5], [€924M], [11.9], [+1.9], [15.4%], [66.3%], [18.3%],
+  [16], [Fenerbahçe], [3], [TUR], [57.8], [€293M], [11.7], [+1.0], [14.4%], [65.1%], [20.5%],
+  [17], [Galatasaray], [3], [TUR], [53.5], [€418M], [11.4], [+0.3], [12.3%], [65.1%], [22.6%],
+  [18], [Aston Villa], [2], [ENG], [83.0], [€586M], [11.3], [+0.5], [12.1%], [64.9%], [23.0%],
+  [19], [Roma], [2], [ITA], [97.8], [€485M], [11.1], [-0.2], [10.1%], [64.2%], [25.7%],
+  [20], [RB Leipzig], [3], [GER], [61.0], [€513M], [10.3], [-1.5], [7.1%], [59.3%], [33.6%],
+  [21], [Feyenoord], [3], [NED], [71.0], [€204M], [9.9], [-2.4], [5.5%], [55.4%], [39.1%],
+  [22], [Lille], [3], [FRA], [68.8], [€245M], [9.8], [-2.3], [5.2%], [55.4%], [39.4%],
+  [23], [Slavia Prague], [4], [CZE], [44.0], [€113M], [9.5], [-3.2], [3.8%], [52.9%], [43.3%],
+  [24], [VfB Stuttgart], [4], [GER], [27.5], [€396M], [9.4], [-3.1], [4.0%], [52.0%], [44.0%],
   [25], [Club Brugge], [2], [BEL], [75.2], [€199M], [9.1], [-3.6], [3.4%], [48.5%], [48.1%],
   [26], [Villarreal], [3], [ESP], [59.0], [€332M], [9.0], [-3.6], [2.9%], [48.1%], [49.0%],
-  [27], [Shakhtar Donetsk], [3], [UKR], [56.2], [€190M], [9.0], [-3.7], [3.2%], [47.6%], [49.2%],
-  [28], [Bodø/Glimt], [3], [NOR], [64.0], [€76M], [8.9], [-4.2], [2.7%], [46.1%], [51.1%],
-  [29], [Real Betis], [2], [ESP], [74.5], [€255M], [8.8], [-4.3], [2.8%], [45.1%], [52.1%],
+  [27], [Shakhtar Donetsk], [3], [UKR], [56.2], [€190M], [9.0], [-3.7], [3.2%], [47.6%], [49.3%],
+  [28], [Bodø/Glimt], [3], [NOR], [64.0], [€76M], [8.8], [-4.2], [2.7%], [46.0%], [51.2%],
+  [29], [Real Betis], [2], [ESP], [74.5], [€255M], [8.8], [-4.3], [2.7%], [45.1%], [52.2%],
   [30], [Como], [4], [ITA], [20.0], [€537M], [8.1], [-5.7], [1.6%], [38.0%], [60.4%],
-  [31], [Lens], [4], [FRA], [16.7], [€203M], [7.2], [-7.4], [0.8%], [27.8%], [71.5%],
-  [32], [Slovan Bratislava], [4], [SVK], [36.0], [€35M], [6.9], [-8.5], [0.5%], [24.9%], [74.5%],
-  [33], [AEK Athens], [4], [GRE], [24.0], [€85M], [6.2], [-9.9], [0.2%], [17.5%], [82.2%],
+  [31], [Lens], [4], [FRA], [16.7], [€203M], [7.2], [-7.4], [0.8%], [27.9%], [71.4%],
+  [32], [Slovan Bratislava], [4], [SVK], [36.0], [€35M], [6.9], [-8.4], [0.5%], [24.9%], [74.6%],
+  [33], [AEK Athens], [4], [GRE], [24.0], [€85M], [6.2], [-9.9], [0.2%], [17.5%], [82.3%],
   [34], [Viking], [4], [NOR], [8.2], [€50M], [5.7], [-10.7], [0.1%], [12.9%], [87.0%],
-  [35], [LASK], [4], [AUT], [21.0], [€48M], [4.0], [-15.9], [0.0%], [4.0%], [96.0%],
+  [35], [LASK], [4], [AUT], [21.0], [€48M], [4.0], [-15.9], [0.0%], [4.1%], [95.9%],
   [36], [Sabah], [4], [AZE], [6.0], [€18M], [3.0], [-18.5], [0.0%], [1.5%], [98.5%],
 
 )
@@ -213,8 +213,8 @@ France is represented by three clubs across three distinct seeding pots in the 2
         - *Squad Value*: €203M | *Coeff*: 16.7
         - *Exp Points*: *7.1 ±3.2* (GD: -7.4)
         - *Top 8 (R16 Bye)*: *0.8%*
-        - *Play-offs (9–24)*: *27.7%*
-        - *Elimination*: *71.5%* (Mean Pos: 27.4)
+        - *Play-offs (9–24)*: *27.8%*
+        - *Elimination*: *71.4%* (Mean Pos: 27.4)
         - *Home*: Sporting, Como, Bodø, Man City
         - *Away*: Slavia, Brugge, Leipzig, Liverpool
       ]
@@ -281,15 +281,62 @@ Spain enters the 2026/27 Champions League with *5 qualified clubs* spanning Pots
   #image("spanish_teams_distribution.png", width: 94%)
 ]
 
+#pagebreak()
+
+== 6. Case Studies: The Italian Contingent (Inter, Napoli, Roma, Como)
+
+Italy is represented by *4 clubs* across all four seeding pots (Pots 1 to 4). Italian clubs occupy pivotal strategic thresholds, spanning the direct Round of 16 cutoff to the play-off battleground:
+
+#v(0.1cm)
+
+#align(center)[
+#table(
+  columns: (22pt, 82pt, 24pt, 42pt, 45pt, 40pt, 36pt, 42pt, 45pt, 40pt, 36pt),
+  stroke: (x, y) => if y == 0 { 1pt + rgb("#2b6cb0") } else { 0.4pt + rgb("#e2e8f0") },
+  fill: (col, row) => {
+    if row == 0 { rgb("#edf2f7") }
+    else if row == 1 { rgb("#f0fff4") }
+    else if row in (2, 3) { rgb("#ebf8ff") }
+    else { rgb("#fffaf0") }
+  },
+  inset: (x: 3pt, y: 2.8pt),
+  align: (col, row) => (
+    if col == 1 { left }
+    else if col in (0, 2) { center }
+    else { right }
+  ),
+  table.header(
+    [*Rk*], [*Club*], [*Pot*], [*Value*], [*Coeff*], [*Exp Pts*], [*GD*], [*Top 8*], [*Play-off*], [*Elim.*], [*Mean*]
+  ),
+  [8], [Inter Milan], [1], [€730M], [127.0], [15.3], [+7.3], [50.1%], [47.1%], [2.8%], [9.7],
+  [14], [SSC Napoli], [3], [€433M], [63.0], [12.0], [+1.4], [14.9%], [68.6%], [16.5%], [16.6],
+  [19], [AS Roma], [2], [€485M], [97.8], [11.1], [-0.2], [10.1%], [64.2%], [25.7%], [18.8],
+  [30], [Como 1907], [4], [€537M], [20.0], [8.1], [-5.7], [1.6%], [38.0%], [60.4%], [25.5],
+)
+]
+
+#v(0.05cm)
+
+=== Strategic Dynamics Across the Italian Field
+1. *Inter Milan (Projected 8th, 50.1% Top 8)*: Inter sits exactly on the knife-edge of direct Round of 16 qualification. An opening fixture away to Real Madrid (MD1) and hosting Liverpool (MD7) are counterbalanced by high-expectancy home ties against Brugge, Shakhtar, and Stuttgart.
+2. *SSC Napoli (Projected 14th, 68.6% Play-offs)*: Antonio Conte's side enjoys the highest play-off certainty among Italian clubs (68.6%). Anchored by home matches against Bodø/Glimt, Brugge, and Viking, Napoli must navigate away fixtures at Manchester City, Porto, and Villarreal.
+3. *AS Roma (Projected 19th, 64.2% Play-offs)*: Roma faces a challenging Pot 2 slate: hosting Real Madrid and visiting Paris Saint-Germain and Manchester United. A top-24 finish will hinge on converting home matches against Slovan Bratislava and Lille.
+4. *Como 1907 (Projected 30th, 38.0% Play-offs)*: An ambitious Pot 4 newcomer boasting an impressive €537M squad valuation, Como faces an unforgiving schedule (hosting PSG, Man United, and Leipzig; visiting Barcelona and Betis). Despite a 60.4% elimination likelihood, Como possesses significant upset potential to crash the play-off bubble (38.0%).
+
+#v(0.05cm)
+#align(center)[
+  #image("italian_teams_distribution.png", width: 94%)
+]
+
 #v(-0.25cm)
 
-== 6. Technical Implementation & Reproducibility
+== 7. Technical Implementation & Reproducibility
 
 ```bash
 # Run 1,000,000 simulations and export CSV
 ./target/release/ucl_2627_sim --simulations 1000000 --csv ucl_2627_standings_1M.csv
 
-# Target specific Spanish clubs for histogram distribution and PNG plots
-./target/release/ucl_2627_sim -n 100000 --target-team "Atlético Madrid" --plot atl_madrid.png
-./target/release/ucl_2627_sim -n 100000 --target-team "Villarreal" --plot villarreal.png
+# Target Italian clubs for histogram distribution and PNG plots
+./target/release/ucl_2627_sim -n 100000 --target-team "Inter Milan" --plot inter_dist.png
+./target/release/ucl_2627_sim -n 100000 --target-team "Como" --plot como_dist.png
 ```
