@@ -1,0 +1,1010 @@
+[
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "AEK Athens",
+    "away_team": "LASK",
+    "venue": "Agia Sophia Stadium"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "Club Brugge",
+    "away_team": "Aston Villa",
+    "venue": "Jan Breydel Stadium"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Villarreal",
+    "venue": "Westfalenstadion"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "Porto",
+    "away_team": "Manchester City",
+    "venue": "Est\u00e1dio do Drag\u00e3o"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "Lille",
+    "away_team": "Real Betis",
+    "venue": "Stade Pierre-Mauroy"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-08",
+    "home_team": "Real Madrid",
+    "away_team": "Inter Milan",
+    "venue": "Bernab\u00e9u"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "Barcelona",
+    "away_team": "Feyenoord",
+    "venue": "Camp Nou"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Viking",
+    "venue": "MHPArena"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "Liverpool",
+    "away_team": "Atl\u00e9tico Madrid",
+    "venue": "Anfield"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "Paris Saint-Germain",
+    "away_team": "Slovan Bratislava",
+    "venue": "Parc des Princes"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "Sporting CP",
+    "away_team": "Galatasaray",
+    "venue": "Est\u00e1dio Jos\u00e9 Alvalade"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-09",
+    "home_team": "Napoli",
+    "away_team": "Arsenal",
+    "venue": "Stadio Diego Armando Maradona"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "Fenerbah\u00e7e",
+    "away_team": "Roma",
+    "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "PSV Eindhoven",
+    "away_team": "Shakhtar Donetsk",
+    "venue": "Philips Stadion"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "Como",
+    "away_team": "RB Leipzig",
+    "venue": "Stadio Giuseppe Sinigaglia"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "Bayern Munich",
+    "away_team": "Bod\u00f8/Glimt",
+    "venue": "Allianz Arena"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "Manchester United",
+    "away_team": "Sabah",
+    "venue": "Old Trafford"
+  },
+  {
+    "matchday": 1,
+    "date": "2026-09-10",
+    "home_team": "Slavia Prague",
+    "away_team": "Lens",
+    "venue": "Fortuna Arena"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Lens",
+    "away_team": "Sporting CP",
+    "venue": "Lens"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Sabah",
+    "away_team": "Slavia Prague",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Arsenal",
+    "away_team": "Lille",
+    "venue": "Metropolitano Stadium"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Atl\u00e9tico Madrid",
+    "away_team": "Manchester United",
+    "venue": "San Siro"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Inter Milan",
+    "away_team": "Club Brugge",
+    "venue": "Rams Park"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Galatasaray",
+    "away_team": "Barcelona",
+    "venue": "Red Bull Arena"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "RB Leipzig",
+    "away_team": "PSV Eindhoven",
+    "venue": "Viking Stadion"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Viking",
+    "away_team": "Bayern Munich",
+    "venue": "Estadio de la Cer\u00e1mica"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-13",
+    "home_team": "Villarreal",
+    "away_team": "Napoli",
+    "venue": "De Kuip"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Feyenoord",
+    "away_team": "Como",
+    "venue": "Raiffeisen Arena"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "LASK",
+    "away_team": "Liverpool",
+    "venue": "Stadio Olimpico"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Roma",
+    "away_team": "Real Madrid",
+    "venue": "Villa Park"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Aston Villa",
+    "away_team": "Fenerbah\u00e7e",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Shakhtar Donetsk",
+    "away_team": "AEK Athens",
+    "venue": "Bod\u00f8"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Bod\u00f8/Glimt",
+    "away_team": "Borussia Dortmund",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Manchester City",
+    "away_team": "Paris Saint-Germain",
+    "venue": "La Cartuja"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Real Betis",
+    "away_team": "Porto",
+    "venue": "Teheln\u00e9 pole"
+  },
+  {
+    "matchday": 2,
+    "date": "2026-10-14",
+    "home_team": "Slovan Bratislava",
+    "away_team": "VfB Stuttgart",
+    "venue": ""
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Fenerbah\u00e7e",
+    "away_team": "Slavia Prague",
+    "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Sabah",
+    "away_team": "Borussia Dortmund",
+    "venue": "Stadio Olimpico"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Roma",
+    "away_team": "Slovan Bratislava",
+    "venue": "Est\u00e1dio do Drag\u00e3o"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Porto",
+    "away_team": "PSV Eindhoven",
+    "venue": "Anfield"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Liverpool",
+    "away_team": "Villarreal",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Manchester City",
+    "away_team": "AEK Athens",
+    "venue": "Parc des Princes"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Paris Saint-Germain",
+    "away_team": "Barcelona",
+    "venue": "Stadio Diego Armando Maradona"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "Napoli",
+    "away_team": "Bod\u00f8/Glimt",
+    "venue": "MHPArena"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-20",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Atl\u00e9tico Madrid",
+    "venue": "Stadio Giuseppe Sinigaglia"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Como",
+    "away_team": "Manchester United",
+    "venue": "Stade Pierre-Mauroy"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Lille",
+    "away_team": "Galatasaray",
+    "venue": "Villa Park"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Aston Villa",
+    "away_team": "Viking",
+    "venue": "Jan Breydel Stadium"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Club Brugge",
+    "away_team": "Lens",
+    "venue": "Allianz Arena"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Bayern Munich",
+    "away_team": "Arsenal",
+    "venue": "San Siro"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Inter Milan",
+    "away_team": "Shakhtar Donetsk",
+    "venue": "Bernab\u00e9u"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Real Madrid",
+    "away_team": "RB Leipzig",
+    "venue": "La Cartuja"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Real Betis",
+    "away_team": "Feyenoord",
+    "venue": "Est\u00e1dio Jos\u00e9 Alvalade"
+  },
+  {
+    "matchday": 3,
+    "date": "2026-10-21",
+    "home_team": "Sporting CP",
+    "away_team": "LASK",
+    "venue": ""
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Shakhtar Donetsk",
+    "away_team": "Sporting CP",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Galatasaray",
+    "away_team": "VfB Stuttgart",
+    "venue": "Rams Park"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Atl\u00e9tico Madrid",
+    "away_team": "Bayern Munich",
+    "venue": "Metropolitano Stadium"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Barcelona",
+    "away_team": "Aston Villa",
+    "venue": "Camp Nou"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Feyenoord",
+    "away_team": "Inter Milan",
+    "venue": "De Kuip"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Bod\u00f8/Glimt",
+    "away_team": "Lille",
+    "venue": "Bod\u00f8"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "LASK",
+    "away_team": "Slovan Bratislava",
+    "venue": "Raiffeisen Arena"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Manchester United",
+    "away_team": "Roma",
+    "venue": "Old Trafford"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-03",
+    "home_team": "Villarreal",
+    "away_team": "Paris Saint-Germain",
+    "venue": "Estadio de la Cer\u00e1mica"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "AEK Athens",
+    "away_team": "Real Madrid",
+    "venue": "Agia Sophia Stadium"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Fenerbah\u00e7e",
+    "away_team": "Liverpool",
+    "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Real Betis",
+    "venue": "Westfalenstadion"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Porto",
+    "away_team": "Napoli",
+    "venue": "Est\u00e1dio do Drag\u00e3o"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "PSV Eindhoven",
+    "away_team": "Club Brugge",
+    "venue": "Philips Stadion"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "RB Leipzig",
+    "away_team": "Manchester City",
+    "venue": "Red Bull Arena"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Lens",
+    "away_team": "Como",
+    "venue": "Lens"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Slavia Prague",
+    "away_team": "Arsenal",
+    "venue": "Fortuna Arena"
+  },
+  {
+    "matchday": 4,
+    "date": "2026-11-04",
+    "home_team": "Viking",
+    "away_team": "Sabah",
+    "venue": "Viking Stadion"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Bod\u00f8/Glimt",
+    "away_team": "LASK",
+    "venue": "Bod\u00f8"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Galatasaray",
+    "away_team": "Aston Villa",
+    "venue": "Rams Park"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Arsenal",
+    "away_team": "Borussia Dortmund",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Como",
+    "away_team": "AEK Athens",
+    "venue": "Stadio Giuseppe Sinigaglia"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Feyenoord",
+    "away_team": "Porto",
+    "venue": "De Kuip"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Manchester City",
+    "away_team": "Napoli",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "RB Leipzig",
+    "away_team": "Lens",
+    "venue": "Red Bull Arena"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Real Madrid",
+    "away_team": "PSV Eindhoven",
+    "venue": "Bernab\u00e9u"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-24",
+    "home_team": "Slovan Bratislava",
+    "away_team": "Real Betis",
+    "venue": "Teheln\u00e9 pole"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Sabah",
+    "away_team": "Barcelona",
+    "venue": "Fortuna Arena"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Slavia Prague",
+    "away_team": "Villarreal",
+    "venue": "Metropolitano Stadium"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Atl\u00e9tico Madrid",
+    "away_team": "Viking",
+    "venue": "Jan Breydel Stadium"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Club Brugge",
+    "away_team": "Liverpool",
+    "venue": "San Siro"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Inter Milan",
+    "away_team": "VfB Stuttgart",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Shakhtar Donetsk",
+    "away_team": "Fenerbah\u00e7e",
+    "venue": "Stade Pierre-Mauroy"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Lille",
+    "away_team": "Bayern Munich",
+    "venue": "Parc des Princes"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Paris Saint-Germain",
+    "away_team": "Roma",
+    "venue": "Est\u00e1dio Jos\u00e9 Alvalade"
+  },
+  {
+    "matchday": 5,
+    "date": "2026-11-25",
+    "home_team": "Sporting CP",
+    "away_team": "Manchester United",
+    "venue": ""
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Viking",
+    "away_team": "Feyenoord",
+    "venue": "Viking Stadion"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Villarreal",
+    "away_team": "Sabah",
+    "venue": "Estadio de la Cer\u00e1mica"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "AEK Athens",
+    "away_team": "Galatasaray",
+    "venue": "Agia Sophia Stadium"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Roma",
+    "away_team": "Sporting CP",
+    "venue": "Stadio Olimpico"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Aston Villa",
+    "away_team": "Paris Saint-Germain",
+    "venue": "Villa Park"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Barcelona",
+    "away_team": "Manchester City",
+    "venue": "Camp Nou"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Bayern Munich",
+    "away_team": "Slavia Prague",
+    "venue": "Allianz Arena"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Manchester United",
+    "away_team": "RB Leipzig",
+    "venue": "Old Trafford"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-08",
+    "home_team": "Napoli",
+    "away_team": "Club Brugge",
+    "venue": "Stadio Diego Armando Maradona"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Real Betis",
+    "away_team": "Como",
+    "venue": "La Cartuja"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Slovan Bratislava",
+    "away_team": "Shakhtar Donetsk",
+    "venue": "Teheln\u00e9 pole"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Arsenal",
+    "away_team": "Real Madrid",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Inter Milan",
+    "venue": "Westfalenstadion"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "LASK",
+    "away_team": "Fenerbah\u00e7e",
+    "venue": "Raiffeisen Arena"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Liverpool",
+    "away_team": "Porto",
+    "venue": "Anfield"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "PSV Eindhoven",
+    "away_team": "Atl\u00e9tico Madrid",
+    "venue": "Philips Stadion"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "Lens",
+    "away_team": "Bod\u00f8/Glimt",
+    "venue": "Lens"
+  },
+  {
+    "matchday": 6,
+    "date": "2026-12-09",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Lille",
+    "venue": "MHPArena"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Bod\u00f8/Glimt",
+    "away_team": "Atl\u00e9tico Madrid",
+    "venue": "Bod\u00f8"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Galatasaray",
+    "away_team": "Feyenoord",
+    "venue": "Rams Park"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "AEK Athens",
+    "away_team": "Roma",
+    "venue": "Agia Sophia Stadium"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Aston Villa",
+    "away_team": "Borussia Dortmund",
+    "venue": "Villa Park"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Inter Milan",
+    "away_team": "Liverpool",
+    "venue": "San Siro"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Porto",
+    "away_team": "Slavia Prague",
+    "venue": "Est\u00e1dio do Drag\u00e3o"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Lille",
+    "away_team": "Slovan Bratislava",
+    "venue": "Stade Pierre-Mauroy"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "Real Madrid",
+    "away_team": "LASK",
+    "venue": "Bernab\u00e9u"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-19",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Club Brugge",
+    "venue": "MHPArena"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Fenerbah\u00e7e",
+    "away_team": "Villarreal",
+    "venue": "\u015e\u00fckr\u00fc Saraco\u011flu Stadium"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Sabah",
+    "away_team": "Napoli",
+    "venue": "Stadio Giuseppe Sinigaglia"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Como",
+    "away_team": "Paris Saint-Germain",
+    "venue": "Old Trafford"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Manchester United",
+    "away_team": "Bayern Munich",
+    "venue": "Red Bull Arena"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "RB Leipzig",
+    "away_team": "Shakhtar Donetsk",
+    "venue": "Lens"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Lens",
+    "away_team": "Manchester City",
+    "venue": "La Cartuja"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Real Betis",
+    "away_team": "Arsenal",
+    "venue": "Est\u00e1dio Jos\u00e9 Alvalade"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Sporting CP",
+    "away_team": "Barcelona",
+    "venue": "Viking Stadion"
+  },
+  {
+    "matchday": 7,
+    "date": "2027-01-20",
+    "home_team": "Viking",
+    "away_team": "PSV Eindhoven",
+    "venue": ""
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Arsenal",
+    "away_team": "Sabah",
+    "venue": "Emirates Stadium"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Roma",
+    "away_team": "Lille",
+    "venue": "Stadio Olimpico"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Atl\u00e9tico Madrid",
+    "away_team": "Fenerbah\u00e7e",
+    "venue": "Metropolitano Stadium"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Borussia Dortmund",
+    "away_team": "AEK Athens",
+    "venue": "Westfalenstadion"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Club Brugge",
+    "away_team": "Bod\u00f8/Glimt",
+    "venue": "Jan Breydel Stadium"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Bayern Munich",
+    "away_team": "Real Betis",
+    "venue": "Allianz Arena"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Barcelona",
+    "away_team": "Como",
+    "venue": "Camp Nou"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Shakhtar Donetsk",
+    "away_team": "Real Madrid",
+    "venue": "Stamford Bridge"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Feyenoord",
+    "away_team": "RB Leipzig",
+    "venue": "De Kuip"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "LASK",
+    "away_team": "Porto",
+    "venue": "Raiffeisen Arena"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Liverpool",
+    "away_team": "Lens",
+    "venue": "Anfield"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Manchester City",
+    "away_team": "Sporting CP",
+    "venue": "Etihad Stadium"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Paris Saint-Germain",
+    "away_team": "Galatasaray",
+    "venue": "Parc des Princes"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "PSV Eindhoven",
+    "away_team": "VfB Stuttgart",
+    "venue": "Philips Stadion"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Slavia Prague",
+    "away_team": "Aston Villa",
+    "venue": "Fortuna Arena"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Napoli",
+    "away_team": "Viking",
+    "venue": "Stadio Diego Armando Maradona"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Villarreal",
+    "away_team": "Manchester United",
+    "venue": "Estadio de la Cer\u00e1mica"
+  },
+  {
+    "matchday": 8,
+    "date": "2027-01-27",
+    "home_team": "Slovan Bratislava",
+    "away_team": "Inter Milan",
+    "venue": "Teheln\u00e9 pole"
+  }
+]
