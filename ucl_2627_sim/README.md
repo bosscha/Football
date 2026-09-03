@@ -35,6 +35,9 @@ ucl_2627_sim/
 │   ├── teams.json     # 36 clubs with pots, valuations, coefficients & YTD form
 │   └── fixtures.json  # 144 official league phase matches with dates and venues
 ├── ucl_2627_simulation_report.pdf # Comprehensive 5-page publication report (Typst)
+├── ucl_2627_fixtures_report.pdf   # Official 144 fixtures calendar & median scores (Typst)
+├── ucl_2627_fixtures_report.typ   # Typst source for the 144-match calendar report
+├── generate_fixtures_report.py    # Generator script for fixture predictions & PDF
 ├── ucl_2627_standings_1M.csv      # Complete 1,000,000 simulations results dataset
 ├── french_teams_distribution.png  # Probability curves for French clubs (PSG, Lille, Lens)
 ├── spanish_teams_distribution.png # Probability curves for Spanish clubs (5 clubs)
