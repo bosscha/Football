@@ -1,0 +1,307 @@
+Match_ID,Season,Competition,Matchday,Date,Home_Team,Away_Team,Venue
+L1-2026-27-001,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Angers SCO,LOSC Lille,Stade Raymond-Kopa
+L1-2026-27-002,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Le Havre AC,AS Monaco,Stade Océane
+L1-2026-27-003,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Le Mans FC,Stade brestois 29,Stade Marie-Marvingt
+L1-2026-27-004,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,RC Lens,AJ Auxerre,Stade Bollaert-Delelis
+L1-2026-27-005,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Olympique de Marseille,RC Strasbourg,Orange Vélodrome
+L1-2026-27-006,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,OGC Nice,FC Lorient,Allianz Riviera
+L1-2026-27-007,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Stade rennais FC,Paris Saint-Germain,Roazhon Park
+L1-2026-27-008,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,Toulouse FC,Olympique lyonnais,Stadium de Toulouse
+L1-2026-27-009,2026-2027,Ligue 1 McDonald's,Journée 1,2026-08-22,ESTAC Troyes,Paris FC,Stade de l'Aube
+L1-2026-27-010,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,AJ Auxerre,Angers SCO,Stade de l'Abbé-Deschamps
+L1-2026-27-011,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,Stade brestois 29,Toulouse FC,Stade Francis-Le Blé
+L1-2026-27-012,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,LOSC Lille,Paris Saint-Germain,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-013,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,FC Lorient,ESTAC Troyes,Stade du Moustoir
+L1-2026-27-014,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,Olympique lyonnais,Le Havre AC,Groupama Stadium
+L1-2026-27-015,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,AS Monaco,Olympique de Marseille,Stade Louis-II
+L1-2026-27-016,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,Paris FC,OGC Nice,Stade Jean-Bouin
+L1-2026-27-017,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,Stade rennais FC,Le Mans FC,Roazhon Park
+L1-2026-27-018,2026-2027,Ligue 1 McDonald's,Journée 2,2026-08-29,RC Strasbourg,RC Lens,Stade de la Meinau
+L1-2026-27-019,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Angers SCO,Stade rennais FC,Stade Raymond-Kopa
+L1-2026-27-020,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Le Havre AC,Stade brestois 29,Stade Océane
+L1-2026-27-021,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,RC Lens,FC Lorient,Stade Bollaert-Delelis
+L1-2026-27-022,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Olympique lyonnais,AJ Auxerre,Groupama Stadium
+L1-2026-27-023,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Olympique de Marseille,Paris FC,Orange Vélodrome
+L1-2026-27-024,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,OGC Nice,Le Mans FC,Allianz Riviera
+L1-2026-27-025,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Paris Saint-Germain,AS Monaco,Parc des Princes
+L1-2026-27-026,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,Toulouse FC,LOSC Lille,Stadium de Toulouse
+L1-2026-27-027,2026-2027,Ligue 1 McDonald's,Journée 3,2026-09-05,ESTAC Troyes,RC Strasbourg,Stade de l'Aube
+L1-2026-27-028,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,AJ Auxerre,OGC Nice,Stade de l'Abbé-Deschamps
+L1-2026-27-029,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,Stade brestois 29,Paris Saint-Germain,Stade Francis-Le Blé
+L1-2026-27-030,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,Le Havre AC,Angers SCO,Stade Océane
+L1-2026-27-031,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,Le Mans FC,RC Lens,Stade Marie-Marvingt
+L1-2026-27-032,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,LOSC Lille,ESTAC Troyes,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-033,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,FC Lorient,Toulouse FC,Stade du Moustoir
+L1-2026-27-034,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,Paris FC,Olympique lyonnais,Stade Jean-Bouin
+L1-2026-27-035,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,Stade rennais FC,Olympique de Marseille,Roazhon Park
+L1-2026-27-036,2026-2027,Ligue 1 McDonald's,Journée 4,2026-09-12,RC Strasbourg,AS Monaco,Stade de la Meinau
+L1-2026-27-037,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Angers SCO,ESTAC Troyes,Stade Raymond-Kopa
+L1-2026-27-038,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,AJ Auxerre,Stade brestois 29,Stade de l'Abbé-Deschamps
+L1-2026-27-039,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Le Mans FC,FC Lorient,Stade Marie-Marvingt
+L1-2026-27-040,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Olympique lyonnais,Stade rennais FC,Groupama Stadium
+L1-2026-27-041,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Olympique de Marseille,Paris Saint-Germain,Orange Vélodrome
+L1-2026-27-042,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,AS Monaco,RC Lens,Stade Louis-II
+L1-2026-27-043,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,OGC Nice,LOSC Lille,Allianz Riviera
+L1-2026-27-044,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Paris FC,RC Strasbourg,Stade Jean-Bouin
+L1-2026-27-045,2026-2027,Ligue 1 McDonald's,Journée 5,2026-09-19,Toulouse FC,Le Havre AC,Stadium de Toulouse
+L1-2026-27-046,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,Stade brestois 29,Angers SCO,Stade Francis-Le Blé
+L1-2026-27-047,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,RC Lens,Olympique lyonnais,Stade Bollaert-Delelis
+L1-2026-27-048,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,LOSC Lille,Le Havre AC,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-049,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,FC Lorient,Paris FC,Stade du Moustoir
+L1-2026-27-050,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,AS Monaco,Toulouse FC,Stade Louis-II
+L1-2026-27-051,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,OGC Nice,RC Strasbourg,Allianz Riviera
+L1-2026-27-052,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,Paris Saint-Germain,Le Mans FC,Parc des Princes
+L1-2026-27-053,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,Stade rennais FC,AJ Auxerre,Roazhon Park
+L1-2026-27-054,2026-2027,Ligue 1 McDonald's,Journée 6,2026-09-26,ESTAC Troyes,Olympique de Marseille,Stade de l'Aube
+L1-2026-27-055,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,Angers SCO,Olympique de Marseille,Stade Raymond-Kopa
+L1-2026-27-056,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,Le Havre AC,AJ Auxerre,Stade Océane
+L1-2026-27-057,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,Le Mans FC,Toulouse FC,Stade Marie-Marvingt
+L1-2026-27-058,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,LOSC Lille,Stade brestois 29,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-059,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,FC Lorient,AS Monaco,Stade du Moustoir
+L1-2026-27-060,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,Olympique lyonnais,OGC Nice,Groupama Stadium
+L1-2026-27-061,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,Paris FC,Stade rennais FC,Stade Jean-Bouin
+L1-2026-27-062,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,RC Strasbourg,Paris Saint-Germain,Stade de la Meinau
+L1-2026-27-063,2026-2027,Ligue 1 McDonald's,Journée 7,2026-10-03,ESTAC Troyes,RC Lens,Stade de l'Aube
+L1-2026-27-064,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Angers SCO,FC Lorient,Stade Raymond-Kopa
+L1-2026-27-065,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,AJ Auxerre,Le Mans FC,Stade de l'Abbé-Deschamps
+L1-2026-27-066,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Stade brestois 29,OGC Nice,Stade Francis-Le Blé
+L1-2026-27-067,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,RC Lens,Paris FC,Stade Bollaert-Delelis
+L1-2026-27-068,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Olympique de Marseille,Le Havre AC,Orange Vélodrome
+L1-2026-27-069,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,AS Monaco,LOSC Lille,Stade Louis-II
+L1-2026-27-070,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Paris Saint-Germain,Olympique lyonnais,Parc des Princes
+L1-2026-27-071,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Stade rennais FC,RC Strasbourg,Roazhon Park
+L1-2026-27-072,2026-2027,Ligue 1 McDonald's,Journée 8,2026-10-17,Toulouse FC,ESTAC Troyes,Stadium de Toulouse
+L1-2026-27-073,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,Le Havre AC,Paris Saint-Germain,Stade Océane
+L1-2026-27-074,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,LOSC Lille,RC Lens,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-075,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,FC Lorient,Stade brestois 29,Stade du Moustoir
+L1-2026-27-076,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,Olympique lyonnais,Angers SCO,Groupama Stadium
+L1-2026-27-077,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,Olympique de Marseille,Toulouse FC,Orange Vélodrome
+L1-2026-27-078,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,OGC Nice,Stade rennais FC,Allianz Riviera
+L1-2026-27-079,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,Paris FC,AS Monaco,Stade Jean-Bouin
+L1-2026-27-080,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,RC Strasbourg,AJ Auxerre,Stade de la Meinau
+L1-2026-27-081,2026-2027,Ligue 1 McDonald's,Journée 9,2026-10-24,ESTAC Troyes,Le Mans FC,Stade de l'Aube
+L1-2026-27-082,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Angers SCO,OGC Nice,Stade Raymond-Kopa
+L1-2026-27-083,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,AJ Auxerre,Paris FC,Stade de l'Abbé-Deschamps
+L1-2026-27-084,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Stade brestois 29,Olympique lyonnais,Stade Francis-Le Blé
+L1-2026-27-085,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Le Havre AC,FC Lorient,Stade Océane
+L1-2026-27-086,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Le Mans FC,AS Monaco,Stade Marie-Marvingt
+L1-2026-27-087,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,RC Lens,Olympique de Marseille,Stade Bollaert-Delelis
+L1-2026-27-088,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Paris Saint-Germain,ESTAC Troyes,Parc des Princes
+L1-2026-27-089,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Stade rennais FC,LOSC Lille,Roazhon Park
+L1-2026-27-090,2026-2027,Ligue 1 McDonald's,Journée 10,2026-10-31,Toulouse FC,RC Strasbourg,Stadium de Toulouse
+L1-2026-27-091,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,RC Lens,Toulouse FC,Stade Bollaert-Delelis
+L1-2026-27-092,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,LOSC Lille,Olympique lyonnais,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-093,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,FC Lorient,Stade rennais FC,Stade du Moustoir
+L1-2026-27-094,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,Olympique de Marseille,Le Mans FC,Orange Vélodrome
+L1-2026-27-095,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,AS Monaco,AJ Auxerre,Stade Louis-II
+L1-2026-27-096,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,OGC Nice,Paris Saint-Germain,Allianz Riviera
+L1-2026-27-097,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,Paris FC,Angers SCO,Stade Jean-Bouin
+L1-2026-27-098,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,RC Strasbourg,Stade brestois 29,Stade de la Meinau
+L1-2026-27-099,2026-2027,Ligue 1 McDonald's,Journée 11,2026-11-07,ESTAC Troyes,Le Havre AC,Stade de l'Aube
+L1-2026-27-100,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Angers SCO,RC Lens,Stade Raymond-Kopa
+L1-2026-27-101,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,AJ Auxerre,Olympique de Marseille,Stade de l'Abbé-Deschamps
+L1-2026-27-102,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Stade brestois 29,Paris FC,Stade Francis-Le Blé
+L1-2026-27-103,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Le Havre AC,RC Strasbourg,Stade Océane
+L1-2026-27-104,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Le Mans FC,LOSC Lille,Stade Marie-Marvingt
+L1-2026-27-105,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Olympique lyonnais,AS Monaco,Groupama Stadium
+L1-2026-27-106,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,OGC Nice,ESTAC Troyes,Allianz Riviera
+L1-2026-27-107,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Paris Saint-Germain,FC Lorient,Parc des Princes
+L1-2026-27-108,2026-2027,Ligue 1 McDonald's,Journée 12,2026-11-21,Toulouse FC,Stade rennais FC,Stadium de Toulouse
+L1-2026-27-109,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,RC Lens,Le Havre AC,Stade Bollaert-Delelis
+L1-2026-27-110,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,LOSC Lille,AJ Auxerre,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-111,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,Olympique de Marseille,OGC Nice,Orange Vélodrome
+L1-2026-27-112,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,AS Monaco,Angers SCO,Stade Louis-II
+L1-2026-27-113,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,Paris FC,Le Mans FC,Stade Jean-Bouin
+L1-2026-27-114,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,Stade rennais FC,Stade brestois 29,Roazhon Park
+L1-2026-27-115,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,RC Strasbourg,FC Lorient,Stade de la Meinau
+L1-2026-27-116,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,Toulouse FC,Paris Saint-Germain,Stadium de Toulouse
+L1-2026-27-117,2026-2027,Ligue 1 McDonald's,Journée 13,2026-11-28,ESTAC Troyes,Olympique lyonnais,Stade de l'Aube
+L1-2026-27-118,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Angers SCO,RC Strasbourg,Stade Raymond-Kopa
+L1-2026-27-119,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,AJ Auxerre,Toulouse FC,Stade de l'Abbé-Deschamps
+L1-2026-27-120,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Stade brestois 29,ESTAC Troyes,Stade Francis-Le Blé
+L1-2026-27-121,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Le Havre AC,Le Mans FC,Stade Océane
+L1-2026-27-122,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,FC Lorient,LOSC Lille,Stade du Moustoir
+L1-2026-27-123,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Olympique lyonnais,Olympique de Marseille,Groupama Stadium
+L1-2026-27-124,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,OGC Nice,RC Lens,Allianz Riviera
+L1-2026-27-125,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Paris Saint-Germain,Paris FC,Parc des Princes
+L1-2026-27-126,2026-2027,Ligue 1 McDonald's,Journée 14,2026-12-05,Stade rennais FC,AS Monaco,Roazhon Park
+L1-2026-27-127,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,Stade brestois 29,Olympique de Marseille,Stade Francis-Le Blé
+L1-2026-27-128,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,Le Mans FC,Olympique lyonnais,Stade Marie-Marvingt
+L1-2026-27-129,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,RC Lens,Paris Saint-Germain,Stade Bollaert-Delelis
+L1-2026-27-130,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,LOSC Lille,RC Strasbourg,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-131,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,FC Lorient,AJ Auxerre,Stade du Moustoir
+L1-2026-27-132,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,AS Monaco,OGC Nice,Stade Louis-II
+L1-2026-27-133,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,Paris FC,Le Havre AC,Stade Jean-Bouin
+L1-2026-27-134,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,Toulouse FC,Angers SCO,Stadium de Toulouse
+L1-2026-27-135,2026-2027,Ligue 1 McDonald's,Journée 15,2026-12-12,ESTAC Troyes,Stade rennais FC,Stade de l'Aube
+L1-2026-27-136,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,Angers SCO,Paris Saint-Germain,Stade Raymond-Kopa
+L1-2026-27-137,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,AJ Auxerre,ESTAC Troyes,Stade de l'Abbé-Deschamps
+L1-2026-27-138,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,Olympique lyonnais,FC Lorient,Groupama Stadium
+L1-2026-27-139,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,Olympique de Marseille,LOSC Lille,Orange Vélodrome
+L1-2026-27-140,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,AS Monaco,Stade brestois 29,Stade Louis-II
+L1-2026-27-141,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,OGC Nice,Le Havre AC,Allianz Riviera
+L1-2026-27-142,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,Paris FC,Toulouse FC,Stade Jean-Bouin
+L1-2026-27-143,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,Stade rennais FC,RC Lens,Roazhon Park
+L1-2026-27-144,2026-2027,Ligue 1 McDonald's,Journée 16,2026-12-19,RC Strasbourg,Le Mans FC,Stade de la Meinau
+L1-2026-27-145,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,Le Havre AC,Stade rennais FC,Stade Océane
+L1-2026-27-146,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,Le Mans FC,Angers SCO,Stade Marie-Marvingt
+L1-2026-27-147,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,RC Lens,Stade brestois 29,Stade Bollaert-Delelis
+L1-2026-27-148,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,LOSC Lille,Paris FC,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-149,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,FC Lorient,Olympique de Marseille,Stade du Moustoir
+L1-2026-27-150,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,Paris Saint-Germain,AJ Auxerre,Parc des Princes
+L1-2026-27-151,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,RC Strasbourg,Olympique lyonnais,Stade de la Meinau
+L1-2026-27-152,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,Toulouse FC,OGC Nice,Stadium de Toulouse
+L1-2026-27-153,2026-2027,Ligue 1 McDonald's,Journée 17,2027-01-09,ESTAC Troyes,AS Monaco,Stade de l'Aube
+L1-2026-27-154,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Angers SCO,Le Havre AC,Stade Raymond-Kopa
+L1-2026-27-155,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Stade brestois 29,RC Strasbourg,Stade Francis-Le Blé
+L1-2026-27-156,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Le Mans FC,OGC Nice,Stade Marie-Marvingt
+L1-2026-27-157,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Olympique lyonnais,LOSC Lille,Groupama Stadium
+L1-2026-27-158,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Olympique de Marseille,ESTAC Troyes,Orange Vélodrome
+L1-2026-27-159,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,AS Monaco,Paris Saint-Germain,Stade Louis-II
+L1-2026-27-160,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Paris FC,AJ Auxerre,Stade Jean-Bouin
+L1-2026-27-161,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Stade rennais FC,FC Lorient,Roazhon Park
+L1-2026-27-162,2026-2027,Ligue 1 McDonald's,Journée 18,2027-01-16,Toulouse FC,RC Lens,Stadium de Toulouse
+L1-2026-27-163,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,AJ Auxerre,AS Monaco,Stade de l'Abbé-Deschamps
+L1-2026-27-164,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,Le Havre AC,Toulouse FC,Stade Océane
+L1-2026-27-165,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,RC Lens,Angers SCO,Stade Bollaert-Delelis
+L1-2026-27-166,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,FC Lorient,Le Mans FC,Stade du Moustoir
+L1-2026-27-167,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,OGC Nice,Stade brestois 29,Allianz Riviera
+L1-2026-27-168,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,Paris Saint-Germain,Olympique de Marseille,Parc des Princes
+L1-2026-27-169,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,Stade rennais FC,Olympique lyonnais,Roazhon Park
+L1-2026-27-170,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,RC Strasbourg,Paris FC,Stade de la Meinau
+L1-2026-27-171,2026-2027,Ligue 1 McDonald's,Journée 19,2027-01-23,ESTAC Troyes,LOSC Lille,Stade de l'Aube
+L1-2026-27-172,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,AJ Auxerre,RC Strasbourg,Stade de l'Abbé-Deschamps
+L1-2026-27-173,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Stade brestois 29,Stade rennais FC,Stade Francis-Le Blé
+L1-2026-27-174,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Le Mans FC,Paris Saint-Germain,Stade Marie-Marvingt
+L1-2026-27-175,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,LOSC Lille,OGC Nice,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-176,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,FC Lorient,Le Havre AC,Stade du Moustoir
+L1-2026-27-177,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Olympique lyonnais,RC Lens,Groupama Stadium
+L1-2026-27-178,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Olympique de Marseille,Angers SCO,Orange Vélodrome
+L1-2026-27-179,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Paris FC,ESTAC Troyes,Stade Jean-Bouin
+L1-2026-27-180,2026-2027,Ligue 1 McDonald's,Journée 20,2027-01-30,Toulouse FC,AS Monaco,Stadium de Toulouse
+L1-2026-27-181,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,Angers SCO,Paris FC,Stade Raymond-Kopa
+L1-2026-27-182,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,Le Havre AC,Olympique lyonnais,Stade Océane
+L1-2026-27-183,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,RC Lens,ESTAC Troyes,Stade Bollaert-Delelis
+L1-2026-27-184,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,LOSC Lille,FC Lorient,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-185,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,AS Monaco,Le Mans FC,Stade Louis-II
+L1-2026-27-186,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,OGC Nice,AJ Auxerre,Allianz Riviera
+L1-2026-27-187,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,Paris Saint-Germain,Stade brestois 29,Parc des Princes
+L1-2026-27-188,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,Stade rennais FC,Toulouse FC,Roazhon Park
+L1-2026-27-189,2026-2027,Ligue 1 McDonald's,Journée 21,2027-02-06,RC Strasbourg,Olympique de Marseille,Stade de la Meinau
+L1-2026-27-190,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,AJ Auxerre,LOSC Lille,Stade de l'Abbé-Deschamps
+L1-2026-27-191,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,Stade brestois 29,AS Monaco,Stade Francis-Le Blé
+L1-2026-27-192,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,Le Mans FC,Paris FC,Stade Marie-Marvingt
+L1-2026-27-193,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,FC Lorient,Angers SCO,Stade du Moustoir
+L1-2026-27-194,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,Olympique lyonnais,Toulouse FC,Groupama Stadium
+L1-2026-27-195,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,Olympique de Marseille,Stade rennais FC,Orange Vélodrome
+L1-2026-27-196,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,Paris Saint-Germain,RC Lens,Parc des Princes
+L1-2026-27-197,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,RC Strasbourg,Le Havre AC,Stade de la Meinau
+L1-2026-27-198,2026-2027,Ligue 1 McDonald's,Journée 22,2027-02-13,ESTAC Troyes,OGC Nice,Stade de l'Aube
+L1-2026-27-199,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,Angers SCO,AJ Auxerre,Stade Raymond-Kopa
+L1-2026-27-200,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,Le Havre AC,OGC Nice,Stade Océane
+L1-2026-27-201,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,RC Lens,RC Strasbourg,Stade Bollaert-Delelis
+L1-2026-27-202,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,LOSC Lille,Olympique de Marseille,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-203,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,AS Monaco,Olympique lyonnais,Stade Louis-II
+L1-2026-27-204,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,Paris FC,Stade brestois 29,Stade Jean-Bouin
+L1-2026-27-205,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,Paris Saint-Germain,Stade rennais FC,Parc des Princes
+L1-2026-27-206,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,Toulouse FC,Le Mans FC,Stadium de Toulouse
+L1-2026-27-207,2026-2027,Ligue 1 McDonald's,Journée 23,2027-02-20,ESTAC Troyes,FC Lorient,Stade de l'Aube
+L1-2026-27-208,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,AJ Auxerre,Paris Saint-Germain,Stade de l'Abbé-Deschamps
+L1-2026-27-209,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Stade brestois 29,LOSC Lille,Stade Francis-Le Blé
+L1-2026-27-210,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Le Havre AC,RC Lens,Stade Océane
+L1-2026-27-211,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Le Mans FC,Stade rennais FC,Stade Marie-Marvingt
+L1-2026-27-212,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Olympique lyonnais,ESTAC Troyes,Groupama Stadium
+L1-2026-27-213,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Olympique de Marseille,AS Monaco,Orange Vélodrome
+L1-2026-27-214,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,OGC Nice,Toulouse FC,Allianz Riviera
+L1-2026-27-215,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,Paris FC,FC Lorient,Stade Jean-Bouin
+L1-2026-27-216,2026-2027,Ligue 1 McDonald's,Journée 24,2027-02-27,RC Strasbourg,Angers SCO,Stade de la Meinau
+L1-2026-27-217,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,Angers SCO,Le Mans FC,Stade Raymond-Kopa
+L1-2026-27-218,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,RC Lens,LOSC Lille,Stade Bollaert-Delelis
+L1-2026-27-219,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,FC Lorient,OGC Nice,Stade du Moustoir
+L1-2026-27-220,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,Olympique de Marseille,Olympique lyonnais,Orange Vélodrome
+L1-2026-27-221,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,AS Monaco,Le Havre AC,Stade Louis-II
+L1-2026-27-222,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,Paris Saint-Germain,RC Strasbourg,Parc des Princes
+L1-2026-27-223,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,Stade rennais FC,Paris FC,Roazhon Park
+L1-2026-27-224,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,Toulouse FC,Stade brestois 29,Stadium de Toulouse
+L1-2026-27-225,2026-2027,Ligue 1 McDonald's,Journée 25,2027-03-06,ESTAC Troyes,AJ Auxerre,Stade de l'Aube
+L1-2026-27-226,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,Angers SCO,AS Monaco,Stade Raymond-Kopa
+L1-2026-27-227,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,AJ Auxerre,RC Lens,Stade de l'Abbé-Deschamps
+L1-2026-27-228,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,Stade brestois 29,FC Lorient,Stade Francis-Le Blé
+L1-2026-27-229,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,Le Havre AC,ESTAC Troyes,Stade Océane
+L1-2026-27-230,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,Le Mans FC,Olympique de Marseille,Stade Marie-Marvingt
+L1-2026-27-231,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,LOSC Lille,Stade rennais FC,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-232,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,OGC Nice,Olympique lyonnais,Allianz Riviera
+L1-2026-27-233,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,Paris FC,Paris Saint-Germain,Stade Jean-Bouin
+L1-2026-27-234,2026-2027,Ligue 1 McDonald's,Journée 26,2027-03-13,RC Strasbourg,Toulouse FC,Stade de la Meinau
+L1-2026-27-235,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,Le Mans FC,AJ Auxerre,Stade Marie-Marvingt
+L1-2026-27-236,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,LOSC Lille,Toulouse FC,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-237,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,FC Lorient,RC Lens,Stade du Moustoir
+L1-2026-27-238,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,Olympique lyonnais,RC Strasbourg,Groupama Stadium
+L1-2026-27-239,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,Olympique de Marseille,Stade brestois 29,Orange Vélodrome
+L1-2026-27-240,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,AS Monaco,Stade rennais FC,Stade Louis-II
+L1-2026-27-241,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,OGC Nice,Paris FC,Allianz Riviera
+L1-2026-27-242,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,Paris Saint-Germain,Le Havre AC,Parc des Princes
+L1-2026-27-243,2026-2027,Ligue 1 McDonald's,Journée 27,2027-03-20,ESTAC Troyes,Angers SCO,Stade de l'Aube
+L1-2026-27-244,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Angers SCO,Olympique lyonnais,Stade Raymond-Kopa
+L1-2026-27-245,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,AJ Auxerre,FC Lorient,Stade de l'Abbé-Deschamps
+L1-2026-27-246,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Stade brestois 29,Le Mans FC,Stade Francis-Le Blé
+L1-2026-27-247,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Le Havre AC,Olympique de Marseille,Stade Océane
+L1-2026-27-248,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,RC Lens,OGC Nice,Stade Bollaert-Delelis
+L1-2026-27-249,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,AS Monaco,RC Strasbourg,Stade Louis-II
+L1-2026-27-250,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Paris Saint-Germain,LOSC Lille,Parc des Princes
+L1-2026-27-251,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Stade rennais FC,ESTAC Troyes,Roazhon Park
+L1-2026-27-252,2026-2027,Ligue 1 McDonald's,Journée 28,2027-04-03,Toulouse FC,Paris FC,Stadium de Toulouse
+L1-2026-27-253,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,Le Mans FC,Le Havre AC,Stade Marie-Marvingt
+L1-2026-27-254,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,LOSC Lille,AS Monaco,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-255,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,FC Lorient,Paris Saint-Germain,Stade du Moustoir
+L1-2026-27-256,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,Olympique lyonnais,Stade brestois 29,Groupama Stadium
+L1-2026-27-257,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,Olympique de Marseille,AJ Auxerre,Orange Vélodrome
+L1-2026-27-258,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,OGC Nice,Angers SCO,Allianz Riviera
+L1-2026-27-259,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,Paris FC,RC Lens,Stade Jean-Bouin
+L1-2026-27-260,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,RC Strasbourg,Stade rennais FC,Stade de la Meinau
+L1-2026-27-261,2026-2027,Ligue 1 McDonald's,Journée 29,2027-04-10,ESTAC Troyes,Toulouse FC,Stade de l'Aube
+L1-2026-27-262,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,AJ Auxerre,Olympique lyonnais,Stade de l'Abbé-Deschamps
+L1-2026-27-263,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,Le Havre AC,Paris FC,Stade Océane
+L1-2026-27-264,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,RC Lens,Le Mans FC,Stade Bollaert-Delelis
+L1-2026-27-265,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,AS Monaco,FC Lorient,Stade Louis-II
+L1-2026-27-266,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,Paris Saint-Germain,Angers SCO,Parc des Princes
+L1-2026-27-267,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,Stade rennais FC,OGC Nice,Roazhon Park
+L1-2026-27-268,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,RC Strasbourg,LOSC Lille,Stade de la Meinau
+L1-2026-27-269,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,Toulouse FC,Olympique de Marseille,Stadium de Toulouse
+L1-2026-27-270,2026-2027,Ligue 1 McDonald's,Journée 30,2027-04-17,ESTAC Troyes,Stade brestois 29,Stade de l'Aube
+L1-2026-27-271,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Angers SCO,Toulouse FC,Stade Raymond-Kopa
+L1-2026-27-272,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Stade brestois 29,AJ Auxerre,Stade Francis-Le Blé
+L1-2026-27-273,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Le Mans FC,ESTAC Troyes,Stade Marie-Marvingt
+L1-2026-27-274,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,RC Lens,AS Monaco,Stade Bollaert-Delelis
+L1-2026-27-275,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,FC Lorient,RC Strasbourg,Stade du Moustoir
+L1-2026-27-276,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Olympique lyonnais,Paris Saint-Germain,Groupama Stadium
+L1-2026-27-277,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,OGC Nice,Olympique de Marseille,Allianz Riviera
+L1-2026-27-278,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Paris FC,LOSC Lille,Stade Jean-Bouin
+L1-2026-27-279,2026-2027,Ligue 1 McDonald's,Journée 31,2027-04-24,Stade rennais FC,Le Havre AC,Roazhon Park
+L1-2026-27-280,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,AJ Auxerre,Stade rennais FC,Stade de l'Abbé-Deschamps
+L1-2026-27-281,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,Stade brestois 29,Le Havre AC,Stade Francis-Le Blé
+L1-2026-27-282,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,LOSC Lille,Angers SCO,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-283,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,Olympique lyonnais,Le Mans FC,Groupama Stadium
+L1-2026-27-284,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,Olympique de Marseille,RC Lens,Orange Vélodrome
+L1-2026-27-285,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,AS Monaco,Paris FC,Stade Louis-II
+L1-2026-27-286,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,Paris Saint-Germain,OGC Nice,Parc des Princes
+L1-2026-27-287,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,RC Strasbourg,ESTAC Troyes,Stade de la Meinau
+L1-2026-27-288,2026-2027,Ligue 1 McDonald's,Journée 32,2027-05-01,Toulouse FC,FC Lorient,Stadium de Toulouse
+L1-2026-27-289,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,Angers SCO,Stade brestois 29,Stade Raymond-Kopa
+L1-2026-27-290,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,Le Havre AC,LOSC Lille,Stade Océane
+L1-2026-27-291,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,Le Mans FC,RC Strasbourg,Stade Marie-Marvingt
+L1-2026-27-292,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,RC Lens,Stade rennais FC,Stade Bollaert-Delelis
+L1-2026-27-293,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,FC Lorient,Olympique lyonnais,Stade du Moustoir
+L1-2026-27-294,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,OGC Nice,AS Monaco,Allianz Riviera
+L1-2026-27-295,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,Paris FC,Olympique de Marseille,Stade Jean-Bouin
+L1-2026-27-296,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,Toulouse FC,AJ Auxerre,Stadium de Toulouse
+L1-2026-27-297,2026-2027,Ligue 1 McDonald's,Journée 33,2027-05-08,ESTAC Troyes,Paris Saint-Germain,Stade de l'Aube
+L1-2026-27-298,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,AJ Auxerre,Le Havre AC,Stade de l'Abbé-Deschamps
+L1-2026-27-299,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,Stade brestois 29,RC Lens,Stade Francis-Le Blé
+L1-2026-27-300,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,LOSC Lille,Le Mans FC,Decathlon Arena - Stade Pierre-Mauroy
+L1-2026-27-301,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,Olympique lyonnais,Paris FC,Groupama Stadium
+L1-2026-27-302,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,Olympique de Marseille,FC Lorient,Orange Vélodrome
+L1-2026-27-303,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,AS Monaco,ESTAC Troyes,Stade Louis-II
+L1-2026-27-304,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,Paris Saint-Germain,Toulouse FC,Parc des Princes
+L1-2026-27-305,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,Stade rennais FC,Angers SCO,Roazhon Park
+L1-2026-27-306,2026-2027,Ligue 1 McDonald's,Journée 34,2027-05-22,RC Strasbourg,OGC Nice,Stade de la Meinau
