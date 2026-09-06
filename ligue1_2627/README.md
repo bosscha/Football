@@ -32,8 +32,10 @@ ligue1_2627/
 │   └── fixtures.json                 # 306 official fixtures across 34 matchdays
 ├── ligue1_fixtures_2026_2027.csv     # Official 306 fixtures in CSV format
 ├── ligue1_2627_standings.csv         # Standings & probabilities export dataset
-├── ligue1_2627_summary.pdf           # 4-page publication PDF report (Typst)
-├── ligue1_2627_summary.typ           # Typst source code
+├── ligue1_2627_summary.pdf           # 4-page Ligue 1 league summary report (Typst)
+├── ligue1_2627_summary.typ           # Typst source code for Ligue 1 summary
+├── brest_sb29_simulation_report.pdf  # 4-page dedicated Stade Brestois 29 report
+├── brest_sb29_report.typ             # Typst source code for Brest SB 29 report
 ├── brest_positions.png               # High-res finishing position distribution chart
 ├── src/
 │   ├── main.rs                       # CLI entry point, reporting & comfy-table

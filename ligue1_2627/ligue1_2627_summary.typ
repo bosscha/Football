@@ -19,7 +19,7 @@
       #text(fill: white, size: 17pt, weight: "bold")[Ligue 1 McDonald's 2026/2027]\
       #v(2pt)
       #text(fill: rgb("#dce9f5"), size: 10.5pt, weight: "medium")[
-        Rapport Prévisionnel Monte-Carlo (100000 saisons réelles simulées)
+        Rapport Prévisionnel Monte-Carlo (1000000 saisons réelles simulées)
       ]\
       #v(1pt)
       #text(fill: rgb("#a0c4e8"), size: 8pt)[
@@ -80,7 +80,7 @@ $ lambda_("home") = lambda_("base") dot exp("HA" + beta (R_("home") - R_("away")
 // PAGE 2: Final Standings & Key Cutoffs
 // ==========================================
 
-= 2. Classement Final Projeté (Synthèse sur 100000 simulations)
+= 2. Classement Final Projeté (Synthèse sur 1000000 simulations)
 
 Le classement est établi rigoureusement selon les critères officiels de départage de la LFP (Points, Différence de buts générale, Buts marqués, etc.).
 
@@ -96,24 +96,24 @@ Le classement est établi rigoureusement selon les critères officiels de dépar
     th[Pos], th[Club], th[Pts Moy], th[Méd], th[V - N - D], th[Diff], th[Titre], th[UCL], th[C3/C4], th[Barr.], th[Desc.]
   ),
 
-  [1], [#text(weight: "medium")[Paris Saint-Germain]], [92.1 ± 4.4], [92], [30-3-1], [+104.6], [99.8%], [100.0%], [0.0%], [0.0%], [0.0%],
-  [2], [#text(weight: "medium")[LOSC Lille]], [66.8 ± 6.8], [67], [20-6-8], [+33.7], [0.1%], [74.9%], [19.1%], [0.0%], [0.0%],
-  [3], [#text(weight: "medium")[Olympique de Marseille]], [64.4 ± 6.9], [65], [19-6-8], [+29.0], [0.0%], [62.0%], [26.8%], [0.0%], [0.0%],
-  [4], [#text(weight: "medium")[RC Lens]], [63.0 ± 7.0], [63], [19-7-9], [+26.4], [0.0%], [53.5%], [31.0%], [0.0%], [0.0%],
-  [5], [#text(weight: "medium")[Olympique lyonnais]], [61.1 ± 7.0], [61], [18-7-9], [+22.8], [0.0%], [42.0%], [35.3%], [0.0%], [0.0%],
+  [1], [#text(weight: "medium")[Paris Saint-Germain]], [92.1 ± 4.4], [92], [30-3-1], [+104.7], [99.8%], [100.0%], [0.0%], [0.0%], [0.0%],
+  [2], [#text(weight: "medium")[LOSC Lille]], [66.8 ± 6.8], [67], [20-6-8], [+33.7], [0.1%], [74.8%], [19.2%], [0.0%], [0.0%],
+  [3], [#text(weight: "medium")[Olympique de Marseille]], [64.4 ± 6.9], [64], [19-6-8], [+29.0], [0.0%], [61.9%], [26.9%], [0.0%], [0.0%],
+  [4], [#text(weight: "medium")[RC Lens]], [63.0 ± 7.0], [63], [19-7-9], [+26.3], [0.0%], [53.5%], [31.0%], [0.0%], [0.0%],
+  [5], [#text(weight: "medium")[Olympique lyonnais]], [61.1 ± 7.0], [61], [18-7-9], [+22.8], [0.0%], [42.1%], [35.1%], [0.0%], [0.0%],
   [6], [#text(weight: "medium")[AS Monaco]], [60.5 ± 7.0], [61], [18-7-9], [+21.7], [0.0%], [38.6%], [35.7%], [0.0%], [0.0%],
-  [7], [#text(weight: "medium")[Stade rennais FC]], [57.8 ± 7.1], [58], [17-7-10], [+16.7], [0.0%], [24.7%], [34.7%], [0.0%], [0.0%],
-  [8], [#text(weight: "medium")[RC Strasbourg]], [49.5 ± 7.2], [49], [14-7-13], [+2.1], [0.0%], [3.7%], [12.7%], [0.2%], [0.1%],
-  [9], [#text(weight: "medium")[Toulouse FC]], [41.8 ± 7.1], [42], [12-7-15], [-11.5], [0.0%], [0.3%], [2.1%], [2.4%], [2.1%],
-  [10], [#text(weight: "medium")[OGC Nice]], [39.7 ± 7.0], [40], [11-7-16], [-15.4], [0.0%], [0.1%], [1.1%], [3.9%], [3.8%],
+  [7], [#text(weight: "medium")[Stade rennais FC]], [57.7 ± 7.1], [58], [17-7-10], [+16.7], [0.0%], [24.7%], [34.6%], [0.0%], [0.0%],
+  [8], [#text(weight: "medium")[RC Strasbourg]], [49.5 ± 7.2], [49], [14-7-13], [+2.1], [0.0%], [3.7%], [12.8%], [0.2%], [0.1%],
+  [9], [#text(weight: "medium")[Toulouse FC]], [41.8 ± 7.1], [42], [12-7-15], [-11.6], [0.0%], [0.3%], [2.1%], [2.4%], [2.0%],
+  [10], [#text(weight: "medium")[OGC Nice]], [39.7 ± 7.0], [40], [11-7-16], [-15.5], [0.0%], [0.1%], [1.1%], [4.0%], [3.9%],
   [11], [#text(weight: "medium")[Paris FC]], [38.7 ± 7.0], [39], [11-7-16], [-17.3], [0.0%], [0.1%], [0.8%], [4.9%], [5.1%],
-  [12], [#text(weight: "medium")[FC Lorient]], [36.6 ± 7.0], [36], [10-7-17], [-21.2], [0.0%], [0.0%], [0.3%], [7.5%], [8.7%],
-  [13], [#text(fill: rgb("#c53030"), weight: "bold")[Stade brestois 29 ⚓]], [35.9 ± 6.9], [36], [10-7-17], [-22.6], [0.0%], [0.0%], [0.3%], [8.2%], [10.5%],
-  [14], [#text(weight: "medium")[ESTAC Troyes]], [32.4 ± 6.8], [32], [9-7-19], [-29.3], [0.0%], [0.0%], [0.1%], [13.0%], [22.2%],
-  [15], [#text(weight: "medium")[AJ Auxerre]], [31.0 ± 6.7], [31], [8-7-19], [-32.2], [0.0%], [0.0%], [0.0%], [14.4%], [29.3%],
-  [16], [#text(weight: "medium")[Le Havre AC]], [29.9 ± 6.6], [30], [8-7-20], [-34.4], [0.0%], [0.0%], [0.0%], [15.2%], [35.5%],
-  [17], [#text(weight: "medium")[Angers SCO]], [29.6 ± 6.6], [29], [8-7-20], [-34.9], [0.0%], [0.0%], [0.0%], [15.1%], [37.1%],
-  [18], [#text(weight: "medium")[Le Mans FC]], [28.2 ± 6.5], [28], [7-6-20], [-37.9], [0.0%], [0.0%], [0.0%], [15.2%], [45.7%],
+  [12], [#text(weight: "medium")[FC Lorient]], [36.6 ± 6.9], [36], [10-7-17], [-21.2], [0.0%], [0.0%], [0.4%], [7.3%], [8.8%],
+  [13], [#text(fill: rgb("#c53030"), weight: "bold")[Stade brestois 29 ⚓]], [35.9 ± 6.9], [36], [10-7-17], [-22.5], [0.0%], [0.0%], [0.3%], [8.2%], [10.3%],
+  [14], [#text(weight: "medium")[ESTAC Troyes]], [32.4 ± 6.7], [32], [9-7-19], [-29.3], [0.0%], [0.0%], [0.1%], [12.9%], [22.4%],
+  [15], [#text(weight: "medium")[AJ Auxerre]], [31.0 ± 6.7], [31], [8-7-19], [-32.2], [0.0%], [0.0%], [0.0%], [14.4%], [29.2%],
+  [16], [#text(weight: "medium")[Le Havre AC]], [29.9 ± 6.6], [30], [8-7-20], [-34.4], [0.0%], [0.0%], [0.0%], [15.2%], [35.4%],
+  [17], [#text(weight: "medium")[Angers SCO]], [29.7 ± 6.6], [30], [8-7-20], [-34.9], [0.0%], [0.0%], [0.0%], [15.3%], [36.7%],
+  [18], [#text(weight: "medium")[Le Mans FC]], [28.2 ± 6.5], [28], [7-6-20], [-38.0], [0.0%], [0.0%], [0.0%], [15.2%], [46.0%],
 )
 
 #v(4pt)
@@ -182,7 +182,7 @@ Le club finistérien s'appuie sur son capital d'expérience engrangé en Ligue d
       #align(center)[
         #text(size: 8pt, fill: rgb("#718096"), weight: "bold")[MAINTIEN DIRECT]\
         #v(1pt)
-        #text(size: 15pt, weight: "bold", fill: rgb("#276749"))[81.4%]\
+        #text(size: 15pt, weight: "bold", fill: rgb("#276749"))[81.5%]\
         #text(size: 7.5pt, fill: rgb("#4a5568"))[Top 15 assuré]
       ]
     ]
@@ -192,8 +192,8 @@ Le club finistérien s'appuie sur son capital d'expérience engrangé en Ligue d
       #align(center)[
         #text(size: 8pt, fill: rgb("#718096"), weight: "bold")[BARRAGE / DESCENTE]\
         #v(1pt)
-        #text(size: 15pt, weight: "bold", fill: rgb("#c53030"))[18.6%]\
-        #text(size: 7.5pt, fill: rgb("#4a5568"))[Barrage: 8.2% | Relég: 10.5%]
+        #text(size: 15pt, weight: "bold", fill: rgb("#c53030"))[18.5%]\
+        #text(size: 7.5pt, fill: rgb("#4a5568"))[Barrage: 8.2% | Relég: 10.3%]
       ]
     ]
   ],
@@ -244,40 +244,40 @@ Ce tableau récapitule l'intégralité des 34 rencontres du Stade Brestois 29 da
     th[J.], th[Date], th[Match & Adversaire], th[Stade / Lieu], th[xG], th[Score Méd.], th[V (%)], th[N (%)], th[D (%)], th[xPts]
   ),
 
-  [J01], [2026-08-22], [Le Mans FC vs *Brest*], [Stade Marie-Marvingt], [1.48 - 1.54], [*1 - 1* (N)], [39.0%], [24.4%], [36.7%],
-  [J02], [2026-08-29], [*Brest* vs Toulouse FC], [Francis-Le Blé], [1.53 - 1.48], [*1 - 1* (N)], [38.8%], [24.2%], [37.0%],
-  [J03], [2026-09-05], [Le Havre AC vs *Brest*], [Stade Océane], [1.52 - 1.49], [*1 - 1* (N)], [37.1%], [24.5%], [38.4%],
-  [J04], [2026-09-12], [*Brest* vs Paris Saint-Germain], [Francis-Le Blé], [0.61 - 3.74], [*0 - 3* (D)], [2.7%], [6.4%], [90.9%],
-  [J05], [2026-09-19], [AJ Auxerre vs *Brest*], [Stade de l'Abbé-Deschamps], [1.55 - 1.47], [*1 - 1* (N)], [36.0%], [24.3%], [39.8%],
-  [J06], [2026-09-26], [*Brest* vs Angers SCO], [Francis-Le Blé], [1.87 - 1.22], [*2 - 1* (V)], [52.9%], [22.6%], [24.6%],
-  [J07], [2026-10-03], [LOSC Lille vs *Brest*], [Decathlon Arena - Stade Pierre-Mauroy], [2.74 - 0.83], [*2 - 0* (D)], [8.7%], [13.8%], [77.5%],
-  [J08], [2026-10-17], [*Brest* vs OGC Nice], [Francis-Le Blé], [1.58 - 1.44], [*1 - 1* (N)], [41.1%], [24.4%], [34.5%],
-  [J09], [2026-10-24], [FC Lorient vs *Brest*], [Stade du Moustoir], [1.70 - 1.34], [*1 - 1* (N)], [30.2%], [23.5%], [46.3%],
-  [J10], [2026-10-31], [*Brest* vs Olympique lyonnais], [Francis-Le Blé], [1.13 - 2.00], [*1 - 2* (D)], [21.0%], [21.4%], [57.6%],
-  [J11], [2026-11-07], [RC Strasbourg vs *Brest*], [Stade de la Meinau], [2.08 - 1.09], [*2 - 1* (D)], [19.1%], [20.6%], [60.2%],
-  [J12], [2026-11-21], [*Brest* vs Paris FC], [Francis-Le Blé], [1.61 - 1.41], [*1 - 1* (N)], [42.2%], [24.0%], [33.8%],
-  [J13], [2026-11-28], [Stade rennais FC vs *Brest*], [Roazhon Park], [2.37 - 0.96], [*2 - 1* (D)], [13.4%], [17.6%], [68.9%],
-  [J14], [2026-12-05], [*Brest* vs ESTAC Troyes], [Francis-Le Blé], [1.78 - 1.27], [*1 - 1* (N)], [49.5%], [23.1%], [27.4%],
-  [J15], [2026-12-12], [*Brest* vs Olympique de Marseille], [Francis-Le Blé], [1.07 - 2.11], [*1 - 2* (D)], [18.2%], [20.5%], [61.3%],
-  [J16], [2026-12-19], [AS Monaco vs *Brest*], [Stade Louis-II], [2.47 - 0.92], [*2 - 1* (D)], [12.0%], [16.7%], [71.4%],
-  [J17], [2027-01-09], [RC Lens vs *Brest*], [Stade Bollaert-Delelis], [2.57 - 0.88], [*2 - 0* (D)], [10.9%], [15.5%], [73.6%],
-  [J18], [2027-01-16], [*Brest* vs RC Strasbourg], [Francis-Le Blé], [1.36 - 1.67], [*1 - 1* (N)], [31.4%], [24.0%], [44.7%],
-  [J19], [2027-01-23], [OGC Nice vs *Brest*], [Allianz Riviera], [1.79 - 1.27], [*1 - 1* (N)], [27.4%], [23.0%], [49.5%],
-  [J20], [2027-01-30], [*Brest* vs Stade rennais FC], [Francis-Le Blé], [1.19 - 1.90], [*1 - 2* (D)], [23.6%], [22.1%], [54.2%],
-  [J21], [2027-02-06], [Paris Saint-Germain vs *Brest*], [Parc des Princes], [4.66 - 0.49], [*4 - 0* (D)], [0.9%], [2.8%], [96.3%],
-  [J22], [2027-02-13], [*Brest* vs AS Monaco], [Francis-Le Blé], [1.14 - 1.99], [*1 - 2* (D)], [21.4%], [21.7%], [56.9%],
-  [J23], [2027-02-20], [Paris FC vs *Brest*], [Stade Jean-Bouin], [1.76 - 1.29], [*1 - 1* (N)], [28.3%], [23.3%], [48.4%],
-  [J24], [2027-02-27], [*Brest* vs LOSC Lille], [Francis-Le Blé], [1.03 - 2.20], [*1 - 2* (D)], [16.6%], [19.4%], [64.0%],
-  [J25], [2027-03-06], [Toulouse FC vs *Brest*], [Stadium de Toulouse], [1.85 - 1.23], [*2 - 1* (D)], [25.0%], [22.8%], [52.2%],
-  [J26], [2027-03-13], [*Brest* vs FC Lorient], [Francis-Le Blé], [1.66 - 1.36], [*1 - 1* (N)], [44.3%], [24.0%], [31.7%],
-  [J27], [2027-03-20], [Olympique de Marseille vs *Brest*], [Orange Vélodrome], [2.63 - 0.86], [*2 - 0* (D)], [9.9%], [14.9%], [75.2%],
-  [J28], [2027-04-03], [*Brest* vs Le Mans FC], [Francis-Le Blé], [1.92 - 1.18], [*2 - 1* (V)], [54.5%], [22.2%], [23.3%],
-  [J29], [2027-04-10], [Olympique lyonnais vs *Brest*], [Groupama Stadium], [2.50 - 0.91], [*2 - 1* (D)], [11.6%], [16.5%], [71.9%],
-  [J30], [2027-04-17], [ESTAC Troyes vs *Brest*], [Stade de l'Aube], [1.59 - 1.43], [*1 - 1* (N)], [34.6%], [23.9%], [41.5%],
-  [J31], [2027-04-24], [*Brest* vs AJ Auxerre], [Francis-Le Blé], [1.83 - 1.24], [*2 - 1* (V)], [51.1%], [22.9%], [26.0%],
-  [J32], [2027-05-01], [*Brest* vs Le Havre AC], [Francis-Le Blé], [1.86 - 1.22], [*2 - 1* (V)], [52.4%], [22.7%], [24.9%],
-  [J33], [2027-05-08], [Angers SCO vs *Brest*], [Stade Raymond-Kopa], [1.51 - 1.50], [*1 - 1* (N)], [37.5%], [24.5%], [38.0%],
-  [J34], [2027-05-22], [*Brest* vs RC Lens], [Francis-Le Blé], [1.10 - 2.07], [*1 - 2* (D)], [19.4%], [20.6%], [60.0%],
+  [J01], [2026-08-22], [Le Mans FC vs *Brest*], [Stade Marie-Marvingt], [1.48 - 1.54], [*1 - 1* (N)], [39.3%], [24.2%], [36.5%],
+  [J02], [2026-08-29], [*Brest* vs Toulouse FC], [Francis-Le Blé], [1.53 - 1.48], [*1 - 1* (N)], [39.0%], [24.2%], [36.8%],
+  [J03], [2026-09-05], [Le Havre AC vs *Brest*], [Stade Océane], [1.52 - 1.49], [*1 - 1* (N)], [37.4%], [24.2%], [38.4%],
+  [J04], [2026-09-12], [*Brest* vs Paris Saint-Germain], [Francis-Le Blé], [0.61 - 3.74], [*0 - 3* (D)], [2.6%], [6.4%], [91.0%],
+  [J05], [2026-09-19], [AJ Auxerre vs *Brest*], [Stade de l'Abbé-Deschamps], [1.55 - 1.47], [*1 - 1* (N)], [36.1%], [24.2%], [39.8%],
+  [J06], [2026-09-26], [*Brest* vs Angers SCO], [Francis-Le Blé], [1.87 - 1.22], [*2 - 1* (V)], [52.7%], [22.5%], [24.7%],
+  [J07], [2026-10-03], [LOSC Lille vs *Brest*], [Decathlon Arena - Stade Pierre-Mauroy], [2.74 - 0.83], [*2 - 0* (D)], [8.7%], [14.0%], [77.3%],
+  [J08], [2026-10-17], [*Brest* vs OGC Nice], [Francis-Le Blé], [1.58 - 1.44], [*1 - 1* (N)], [41.1%], [24.1%], [34.8%],
+  [J09], [2026-10-24], [FC Lorient vs *Brest*], [Stade du Moustoir], [1.70 - 1.34], [*1 - 1* (N)], [30.2%], [23.6%], [46.2%],
+  [J10], [2026-10-31], [*Brest* vs Olympique lyonnais], [Francis-Le Blé], [1.13 - 2.00], [*1 - 2* (D)], [21.0%], [21.5%], [57.6%],
+  [J11], [2026-11-07], [RC Strasbourg vs *Brest*], [Stade de la Meinau], [2.08 - 1.09], [*2 - 1* (D)], [19.1%], [20.7%], [60.3%],
+  [J12], [2026-11-21], [*Brest* vs Paris FC], [Francis-Le Blé], [1.61 - 1.41], [*1 - 1* (N)], [42.3%], [24.0%], [33.7%],
+  [J13], [2026-11-28], [Stade rennais FC vs *Brest*], [Roazhon Park], [2.37 - 0.96], [*2 - 1* (D)], [13.6%], [17.7%], [68.7%],
+  [J14], [2026-12-05], [*Brest* vs ESTAC Troyes], [Francis-Le Blé], [1.78 - 1.27], [*1 - 1* (N)], [49.5%], [23.2%], [27.3%],
+  [J15], [2026-12-12], [*Brest* vs Olympique de Marseille], [Francis-Le Blé], [1.07 - 2.11], [*1 - 2* (D)], [18.4%], [20.4%], [61.2%],
+  [J16], [2026-12-19], [AS Monaco vs *Brest*], [Stade Louis-II], [2.47 - 0.92], [*2 - 1* (D)], [12.0%], [16.6%], [71.5%],
+  [J17], [2027-01-09], [RC Lens vs *Brest*], [Stade Bollaert-Delelis], [2.57 - 0.88], [*2 - 0* (D)], [10.6%], [15.5%], [73.8%],
+  [J18], [2027-01-16], [*Brest* vs RC Strasbourg], [Francis-Le Blé], [1.36 - 1.67], [*1 - 1* (N)], [31.2%], [23.8%], [45.0%],
+  [J19], [2027-01-23], [OGC Nice vs *Brest*], [Allianz Riviera], [1.79 - 1.27], [*1 - 1* (N)], [27.2%], [23.2%], [49.6%],
+  [J20], [2027-01-30], [*Brest* vs Stade rennais FC], [Francis-Le Blé], [1.19 - 1.90], [*1 - 2* (D)], [23.8%], [22.4%], [53.8%],
+  [J21], [2027-02-06], [Paris Saint-Germain vs *Brest*], [Parc des Princes], [4.66 - 0.49], [*4 - 0* (D)], [0.9%], [2.9%], [96.2%],
+  [J22], [2027-02-13], [*Brest* vs AS Monaco], [Francis-Le Blé], [1.14 - 1.99], [*1 - 2* (D)], [21.5%], [21.6%], [56.9%],
+  [J23], [2027-02-20], [Paris FC vs *Brest*], [Stade Jean-Bouin], [1.76 - 1.29], [*1 - 1* (N)], [28.1%], [23.3%], [48.6%],
+  [J24], [2027-02-27], [*Brest* vs LOSC Lille], [Francis-Le Blé], [1.03 - 2.20], [*1 - 2* (D)], [16.6%], [19.5%], [63.8%],
+  [J25], [2027-03-06], [Toulouse FC vs *Brest*], [Stadium de Toulouse], [1.85 - 1.23], [*2 - 1* (D)], [25.3%], [22.7%], [52.0%],
+  [J26], [2027-03-13], [*Brest* vs FC Lorient], [Francis-Le Blé], [1.66 - 1.36], [*1 - 1* (N)], [44.5%], [23.9%], [31.5%],
+  [J27], [2027-03-20], [Olympique de Marseille vs *Brest*], [Orange Vélodrome], [2.63 - 0.86], [*2 - 0* (D)], [9.9%], [15.0%], [75.1%],
+  [J28], [2027-04-03], [*Brest* vs Le Mans FC], [Francis-Le Blé], [1.92 - 1.18], [*2 - 1* (V)], [54.5%], [22.1%], [23.3%],
+  [J29], [2027-04-10], [Olympique lyonnais vs *Brest*], [Groupama Stadium], [2.50 - 0.91], [*2 - 1* (D)], [11.7%], [16.3%], [72.0%],
+  [J30], [2027-04-17], [ESTAC Troyes vs *Brest*], [Stade de l'Aube], [1.59 - 1.43], [*1 - 1* (N)], [34.6%], [24.1%], [41.3%],
+  [J31], [2027-04-24], [*Brest* vs AJ Auxerre], [Francis-Le Blé], [1.83 - 1.24], [*2 - 1* (V)], [51.1%], [23.0%], [26.0%],
+  [J32], [2027-05-01], [*Brest* vs Le Havre AC], [Francis-Le Blé], [1.86 - 1.22], [*2 - 1* (V)], [52.3%], [22.8%], [24.9%],
+  [J33], [2027-05-08], [Angers SCO vs *Brest*], [Stade Raymond-Kopa], [1.51 - 1.50], [*1 - 1* (N)], [37.6%], [24.2%], [38.2%],
+  [J34], [2027-05-22], [*Brest* vs RC Lens], [Francis-Le Blé], [1.10 - 2.07], [*1 - 2* (D)], [19.6%], [20.9%], [59.6%],
 )
 
 #v(4pt)
